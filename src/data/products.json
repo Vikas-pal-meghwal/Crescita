@@ -1,0 +1,3407 @@
+[
+  {
+    "id": "P001",
+    "name": "Nail Polish",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "brand": "GlowUp",
+    "description": "Chip-resistant glossy nail polish.",
+    "basePrice": 349,
+    "currency": "INR",
+    "rating": 4.5,
+    "tags": [
+      "makeup",
+      "nails",
+      "polish"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "colorCode": "#000000",
+        "images": [
+          "https://elsaj.s3.us-east-1.amazonaws.com/images/1765295506275/741564954.avif",
+          "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=85",
+          "https://elsaj.s3.us-east-1.amazonaws.com/images/1765295506275/741564954.avif",
+          "https://elsaj.s3.us-east-1.amazonaws.com/images/1765295506275/561866910.avif",
+          "https://elsaj.s3.us-east-1.amazonaws.com/images/1765295506275/119369289.avif",
+          "https://elsaj.s3.us-east-1.amazonaws.com/images/1765295506275/380784385.avif"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P001-BLA-STD",
+            "price": 349,
+            "stock": 53
+          }
+        ]
+      },
+      {
+        "color": "Nude",
+        "colorCode": "#D2B48C",
+        "images": [
+          "nail_nude1.jpg",
+          "nail_nude2.jpg",
+          "nail_nude3.jpg",
+          "nail_nude4.jpg",
+          "nail_nude5.jpg",
+          "nail_nude6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P001-NUD-STD",
+            "price": 399,
+            "stock": 36
+          }
+        ]
+      },
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "nail_yellow1.jpg",
+          "nail_yellow2.jpg",
+          "nail_yellow3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P001-YEL-STD",
+            "price": 199,
+            "stock": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P002",
+    "name": "Moisturizing Body Lotion",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "brand": "NatureCare",
+    "description": "24-hour hydrating body lotion.",
+    "basePrice": 499,
+    "currency": "INR",
+    "rating": 4.2,
+    "tags": [
+      "skincare",
+      "lotion",
+      "body"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "colorCode": "#000000",
+        "images": [
+          "https://media.istockphoto.com/id/2196910847/photo/opened-jar-of-face-or-body-cream-on-blue-bath-towel-closeup-cream-texture-natural-cosmetic.webp?a=1&b=1&s=612x612&w=0&k=20&c=GgMQ4l2hiL_aoSdf0KykxVGGQss2l9hVmmPbhnpyzzM=",
+          "https://images.unsplash.com/photo-1609097164673-7cfafb51b926?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fE1vaXN0dXJpemluZyUyMEJvZHklMjBMb3Rpb258ZW58MHx8MHx8fDA%3D"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P002-BLA-STD",
+            "price": 499,
+            "stock": 17
+          }
+        ]
+      },
+      {
+        "color": "White",
+        "colorCode": "#FFFFFF",
+        "images": [
+          "moisturizing_white1.jpg",
+          "moisturizing_white2.jpg",
+          "moisturizing_white3.jpg",
+          "moisturizing_white4.jpg",
+          "moisturizing_white5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P002-WHI-STD",
+            "price": 399,
+            "stock": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P003",
+    "name": "Compact Powder",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "brand": "GlowUp",
+    "description": "Lightweight compact powder for all-day matte look.",
+    "basePrice": 199,
+    "currency": "INR",
+    "rating": 4.5,
+    "tags": [
+      "makeup",
+      "face",
+      "powder"
+    ],
+    "variants": [
+      {
+        "color": "Pink",
+        "colorCode": "#E91E8C",
+        "images": [
+          "https://media.istockphoto.com/id/1200480197/photo/compact-powder-with-a-mirror-in-the-hands-of-a-young-girl-close-pressed-tonal-base-in.webp?a=1&b=1&s=612x612&w=0&k=20&c=g2e4K7TDGQtmupCv0PFXq7RlnSVkXq81e8WdBTHvCso=",
+          "https://images.unsplash.com/photo-1583241800804-8eea95214a87?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fENvbXBhY3QlMjBQb3dkZXJ8ZW58MHx8MHx8fDA%3D",
+          "https://plus.unsplash.com/premium_photo-1689245691735-46a8f0c86054?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fENvbXBhY3QlMjBQb3dkZXJ8ZW58MHx8MHx8fDA%3D",
+          "https://plus.unsplash.com/premium_photo-1670444333461-21b616a549b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fENvbXBhY3QlMjBQb3dkZXJ8ZW58MHx8MHx8fDA%3D"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P003-PIN-STD",
+            "price": 199,
+            "stock": 38
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P004",
+    "name": "Men's Formal Shoes",
+    "category": "Fashion",
+    "subcategory": "Footwear",
+    "brand": "Turtle",
+    "description": "Slim fit formal leather shoes.",
+    "basePrice": 999,
+    "currency": "INR",
+    "rating": 4.0,
+    "tags": [
+      "shoes",
+      "formal",
+      "men"
+    ],
+    "variants": [
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "https://elsaj.s3.us-east-1.amazonaws.com/images/1782842923850/871448365.png",
+          "https://elsaj.s3.us-east-1.amazonaws.com/images/1782842923853/523309607.png",
+          "https://elsaj.s3.us-east-1.amazonaws.com/images/1782842923866/394417792.png"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P004-YEL-L",
+            "price": 999,
+            "stock": 49
+          },
+          {
+            "size": "M",
+            "sku": "P004-YEL-M",
+            "price": 999,
+            "stock": 49
+          },
+          {
+            "size": "XXL",
+            "sku": "P004-YEL-XXL",
+            "price": 1049,
+            "stock": 3
+          }
+        ]
+      },
+      {
+        "color": "White",
+        "colorCode": "#FFFFFF",
+        "images": [
+          "https://plus.unsplash.com/premium_photo-1706800175680-27c871f15fcc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZSUyMHdhc2h8ZW58MHx8MHx8fDA%3D",
+          "https://fabricpandit.com/cdn/shop/files/cotton-linen-fabric-fabric-steel-blue-color-pure-cotton-linen-fabric-width-42-inches-1128126200.jpg?v=1739036994&width=600",
+          "https://fabricpandit.com/cdn/shop/files/cotton-linen-fabric-fabric-steel-blue-color-pure-cotton-linen-fabric-width-42-inches-1128126200.jpg?v=1739036994&width=600",
+          "https://fabricpandit.com/cdn/shop/files/cotton-linen-fabric-fabric-steel-blue-color-pure-cotton-linen-fabric-width-42-inches-1128126200.jpg?v=1739036994&width=600",
+          "https://fabricpandit.com/cdn/shop/files/cotton-linen-fabric-fabric-steel-blue-color-pure-cotton-linen-fabric-width-42-inches-1128126200.jpg?v=1739036994&width=600",
+          "https://fabricpandit.com/cdn/shop/files/cotton-linen-fabric-fabric-steel-blue-color-pure-cotton-linen-fabric-width-42-inches-1128126200.jpg?v=1739036994&width=600"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P004-WHI-L",
+            "price": 899,
+            "stock": 4
+          },
+          {
+            "size": "XL",
+            "sku": "P004-WHI-XL",
+            "price": 949,
+            "stock": 13
+          }
+        ]
+      },
+      {
+        "color": "Red",
+        "colorCode": "#B22222",
+        "images": [
+          "men's_red1.jpg",
+          "men's_red2.jpg",
+          "men's_red3.jpg",
+          "men's_red4.jpg",
+          "men's_red5.jpg",
+          "men's_red6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P004-RED-L",
+            "price": 1199,
+            "stock": 41
+          },
+          {
+            "size": "M",
+            "sku": "P004-RED-M",
+            "price": 1199,
+            "stock": 29
+          },
+          {
+            "size": "XXL",
+            "sku": "P004-RED-XXL",
+            "price": 1249,
+            "stock": 9
+          },
+          {
+            "size": "XL",
+            "sku": "P004-RED-XL",
+            "price": 1249,
+            "stock": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P005",
+    "name": "Kids Graphic T-Shirt",
+    "category": "Fashion",
+    "subcategory": "Kids Clothing",
+    "brand": "LittleTrend",
+    "description": "Soft cotton graphic tee for kids.",
+    "basePrice": 849,
+    "currency": "INR",
+    "rating": 4.6,
+    "tags": [
+      "kids",
+      "tshirt",
+      "cotton"
+    ],
+    "variants": [
+      {
+        "color": "Maroon",
+        "colorCode": "#800000",
+        "images": [
+          "https://fabricpandit.com/cdn/shop/files/cotton-linen-fabric-fabric-military-green-color-pure-cotton-linen-fabric-width-42-inches-1128075519.jpg?v=1739036978&width=600",
+          "kids_maroon2.jpg",
+          "kids_maroon3.jpg",
+          "kids_maroon4.jpg",
+          "kids_maroon5.jpg",
+          "kids_maroon6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XXL",
+            "sku": "P005-MAR-XXL",
+            "price": 849,
+            "stock": 8
+          },
+          {
+            "size": "XL",
+            "sku": "P005-MAR-XL",
+            "price": 849,
+            "stock": 32
+          },
+          {
+            "size": "M",
+            "sku": "P005-MAR-M",
+            "price": 799,
+            "stock": 31
+          }
+        ]
+      },
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "kids_yellow1.jpg",
+          "kids_yellow2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "S",
+            "sku": "P005-YEL-S",
+            "price": 699,
+            "stock": 50
+          },
+          {
+            "size": "M",
+            "sku": "P005-YEL-M",
+            "price": 699,
+            "stock": 43
+          }
+        ]
+      },
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "kids_grey1.jpg",
+          "kids_grey2.jpg",
+          "kids_grey3.jpg",
+          "kids_grey4.jpg",
+          "kids_grey5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "S",
+            "sku": "P005-GRE-S",
+            "price": 1999,
+            "stock": 16
+          },
+          {
+            "size": "XL",
+            "sku": "P005-GRE-XL",
+            "price": 2049,
+            "stock": 35
+          },
+          {
+            "size": "M",
+            "sku": "P005-GRE-M",
+            "price": 1999,
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "sku": "P005-GRE-L",
+            "price": 1999,
+            "stock": 43
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P006",
+    "name": "Electric Kettle",
+    "category": "Home & Living",
+    "subcategory": "Appliances",
+    "brand": "HomeEssentials",
+    "description": "1.5L stainless steel electric kettle.",
+    "basePrice": 1999,
+    "currency": "INR",
+    "rating": 4.6,
+    "tags": [
+      "appliance",
+      "kettle",
+      "kitchen"
+    ],
+    "variants": [
+      {
+        "color": "Maroon",
+        "colorCode": "#800000",
+        "images": [
+          "https://fabricpandit.com/cdn/shop/files/cotton-linen-fabric-fabric-natural-white-color-pure-cotton-linen-fabric-width-42-inches-1128075522.jpg?v=1739036987&width=600"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P006-MAR-2PC",
+            "price": 1999,
+            "stock": 0
+          },
+          {
+            "size": "5-Piece",
+            "sku": "P006-MAR-5PC",
+            "price": 2199,
+            "stock": 30
+          }
+        ]
+      },
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "electric_grey1.jpg",
+          "electric_grey2.jpg",
+          "electric_grey3.jpg",
+          "electric_grey4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Single",
+            "sku": "P006-GRE-SGL",
+            "price": 4999,
+            "stock": 27
+          }
+        ]
+      },
+      {
+        "color": "Green",
+        "colorCode": "#2E7D32",
+        "images": [
+          "electric_green1.jpg",
+          "electric_green2.jpg",
+          "electric_green3.jpg",
+          "electric_green4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P006-GRE-2PC",
+            "price": 4999,
+            "stock": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P007",
+    "name": "Face Wash",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "brand": "PureGlow",
+    "description": "Gentle foaming face wash for daily use.",
+    "basePrice": 599,
+    "currency": "INR",
+    "rating": 4.1,
+    "tags": [
+      "skincare",
+      "facewash"
+    ],
+    "variants": [
+      {
+        "color": "Maroon",
+        "colorCode": "#800000",
+        "images": [
+          "https://fabricpandit.com/cdn/shop/files/premium-linen-fabric-fabric-slate-grey-plain-premium-60-lea-pure-linen-fabric-width-58-inches-1231098559.jpg?v=1777374882&width=600",
+          "face_maroon2.jpg",
+          "face_maroon3.jpg",
+          "face_maroon4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P007-MAR-STD",
+            "price": 599,
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "Blue",
+        "colorCode": "#1E3A8A",
+        "images": [
+          "face_blue1.jpg",
+          "face_blue2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P007-BLU-STD",
+            "price": 399,
+            "stock": 56
+          }
+        ]
+      },
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "face_navy1.jpg",
+          "face_navy2.jpg",
+          "face_navy3.jpg",
+          "face_navy4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P007-NAV-STD",
+            "price": 299,
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P008",
+    "name": "Men's Leather Belt",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "brand": "UrbanStyle",
+    "description": "Genuine leather belt with metal buckle.",
+    "basePrice": 1999,
+    "currency": "INR",
+    "rating": 3.8,
+    "tags": [
+      "belt",
+      "leather",
+      "men"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "colorCode": "#000000",
+        "images": [
+          "https://media.samyakk.in/pub/media/catalog/product/cache/d47d9b4b8c33f09ac326aed90267cb26/j/h/jh4267.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "M",
+            "sku": "P008-BLA-M",
+            "price": 1999,
+            "stock": 10
+          },
+          {
+            "size": "XXL",
+            "sku": "P008-BLA-XXL",
+            "price": 2049,
+            "stock": 16
+          },
+          {
+            "size": "L",
+            "sku": "P008-BLA-L",
+            "price": 1999,
+            "stock": 33
+          },
+          {
+            "size": "XL",
+            "sku": "P008-BLA-XL",
+            "price": 2049,
+            "stock": 38
+          }
+        ]
+      },
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "men's_yellow1.jpg",
+          "men's_yellow2.jpg",
+          "men's_yellow3.jpg",
+          "men's_yellow4.jpg",
+          "men's_yellow5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XXL",
+            "sku": "P008-YEL-XXL",
+            "price": 949,
+            "stock": 25
+          },
+          {
+            "size": "M",
+            "sku": "P008-YEL-M",
+            "price": 899,
+            "stock": 42
+          }
+        ]
+      },
+      {
+        "color": "Beige",
+        "colorCode": "#E8D5B7",
+        "images": [
+          "men's_beige1.jpg",
+          "men's_beige2.jpg",
+          "men's_beige3.jpg",
+          "men's_beige4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XXL",
+            "sku": "P008-BEI-XXL",
+            "price": 849,
+            "stock": 14
+          },
+          {
+            "size": "XL",
+            "sku": "P008-BEI-XL",
+            "price": 849,
+            "stock": 4
+          },
+          {
+            "size": "S",
+            "sku": "P008-BEI-S",
+            "price": 799,
+            "stock": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P009",
+    "name": "Kajal",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "brand": "GlowUp",
+    "description": "Smudge-proof intense black kajal.",
+    "basePrice": 199,
+    "currency": "INR",
+    "rating": 4.4,
+    "tags": [
+      "makeup",
+      "eyes",
+      "kajal"
+    ],
+    "variants": [
+      {
+        "color": "White",
+        "colorCode": "#FFFFFF",
+        "images": [
+          "https://media.samyakk.in/pub/media/catalog/product/cache/d47d9b4b8c33f09ac326aed90267cb26/j/i/ji1418.jpg",
+          "kajal_white2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P009-WHI-STD",
+            "price": 199,
+            "stock": 45
+          }
+        ]
+      },
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "kajal_navy1.jpg",
+          "kajal_navy2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P009-NAV-STD",
+            "price": 299,
+            "stock": 4
+          }
+        ]
+      },
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "kajal_yellow1.jpg",
+          "kajal_yellow2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P009-YEL-STD",
+            "price": 399,
+            "stock": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P010",
+    "name": "Men's Sports Shoes",
+    "category": "Fashion",
+    "subcategory": "Footwear",
+    "brand": "FitGear",
+    "description": "Cushioned running shoes.",
+    "basePrice": 1199,
+    "currency": "INR",
+    "rating": 3.9,
+    "tags": [
+      "shoes",
+      "running",
+      "men"
+    ],
+    "variants": [
+      {
+        "color": "Pink",
+        "colorCode": "#E91E8C",
+        "images": [
+          "https://media.samyakk.in/pub/media/catalog/product/cache/d47d9b4b8c33f09ac326aed90267cb26/n/a/navy-blue-resham-embroidered-knit-jodhpuri-suit-iw1547.jpg",
+          "men's_pink2.jpg",
+          "men's_pink3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "M",
+            "sku": "P010-PIN-M",
+            "price": 1199,
+            "stock": 12
+          },
+          {
+            "size": "XL",
+            "sku": "P010-PIN-XL",
+            "price": 1249,
+            "stock": 6
+          },
+          {
+            "size": "S",
+            "sku": "P010-PIN-S",
+            "price": 1199,
+            "stock": 6
+          },
+          {
+            "size": "XXL",
+            "sku": "P010-PIN-XXL",
+            "price": 1249,
+            "stock": 42
+          }
+        ]
+      },
+      {
+        "color": "Beige",
+        "colorCode": "#E8D5B7",
+        "images": [
+          "men's_beige1.jpg",
+          "men's_beige2.jpg",
+          "men's_beige3.jpg",
+          "men's_beige4.jpg",
+          "men's_beige5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XL",
+            "sku": "P010-BEI-XL",
+            "price": 549,
+            "stock": 43
+          },
+          {
+            "size": "XXL",
+            "sku": "P010-BEI-XXL",
+            "price": 549,
+            "stock": 41
+          },
+          {
+            "size": "M",
+            "sku": "P010-BEI-M",
+            "price": 499,
+            "stock": 41
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P011",
+    "name": "Face Mask Sheet",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "brand": "PureGlow",
+    "description": "Hydrating sheet mask with aloe vera.",
+    "basePrice": 299,
+    "currency": "INR",
+    "rating": 4.0,
+    "tags": [
+      "skincare",
+      "mask"
+    ],
+    "variants": [
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "face_yellow1.jpg",
+          "face_yellow2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P011-YEL-STD",
+            "price": 299,
+            "stock": 12
+          }
+        ]
+      },
+      {
+        "color": "Green",
+        "colorCode": "#2E7D32",
+        "images": [
+          "face_green1.jpg",
+          "face_green2.jpg",
+          "face_green3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P011-GRE-STD",
+            "price": 799,
+            "stock": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P012",
+    "name": "Sunscreen SPF 50",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "brand": "PureGlow",
+    "description": "Broad spectrum sunscreen, non-greasy formula.",
+    "basePrice": 299,
+    "currency": "INR",
+    "rating": 4.8,
+    "tags": [
+      "skincare",
+      "sunscreen",
+      "spf"
+    ],
+    "variants": [
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "sunscreen_grey1.jpg",
+          "sunscreen_grey2.jpg",
+          "sunscreen_grey3.jpg",
+          "sunscreen_grey4.jpg",
+          "sunscreen_grey5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P012-GRE-STD",
+            "price": 299,
+            "stock": 55
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P013",
+    "name": "Unisex Sunglasses",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "brand": "SunVibe",
+    "description": "UV protected stylish sunglasses.",
+    "basePrice": 749,
+    "currency": "INR",
+    "rating": 4.8,
+    "tags": [
+      "sunglasses",
+      "accessories",
+      "unisex"
+    ],
+    "variants": [
+      {
+        "color": "Maroon",
+        "colorCode": "#800000",
+        "images": [
+          "unisex_maroon1.jpg",
+          "unisex_maroon2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XXL",
+            "sku": "P013-MAR-XXL",
+            "price": 749,
+            "stock": 26
+          },
+          {
+            "size": "S",
+            "sku": "P013-MAR-S",
+            "price": 699,
+            "stock": 31
+          },
+          {
+            "size": "XL",
+            "sku": "P013-MAR-XL",
+            "price": 749,
+            "stock": 30
+          },
+          {
+            "size": "L",
+            "sku": "P013-MAR-L",
+            "price": 699,
+            "stock": 13
+          }
+        ]
+      },
+      {
+        "color": "Black",
+        "colorCode": "#000000",
+        "images": [
+          "unisex_black1.jpg",
+          "unisex_black2.jpg",
+          "unisex_black3.jpg",
+          "unisex_black4.jpg",
+          "unisex_black5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "M",
+            "sku": "P013-BLA-M",
+            "price": 499,
+            "stock": 24
+          },
+          {
+            "size": "XL",
+            "sku": "P013-BLA-XL",
+            "price": 549,
+            "stock": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P014",
+    "name": "Women's High-Waist Jeans",
+    "category": "Fashion",
+    "subcategory": "Women's Clothing",
+    "brand": "Chic Vogue",
+    "description": "Stretchable high-waist skinny jeans.",
+    "basePrice": 849,
+    "currency": "INR",
+    "rating": 3.9,
+    "tags": [
+      "jeans",
+      "denim",
+      "women"
+    ],
+    "variants": [
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "women's_grey1.jpg",
+          "women's_grey2.jpg",
+          "women's_grey3.jpg",
+          "women's_grey4.jpg",
+          "women's_grey5.jpg",
+          "women's_grey6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XL",
+            "sku": "P014-GRE-XL",
+            "price": 849,
+            "stock": 3
+          },
+          {
+            "size": "M",
+            "sku": "P014-GRE-M",
+            "price": 799,
+            "stock": 37
+          },
+          {
+            "size": "S",
+            "sku": "P014-GRE-S",
+            "price": 799,
+            "stock": 47
+          },
+          {
+            "size": "XXL",
+            "sku": "P014-GRE-XXL",
+            "price": 849,
+            "stock": 34
+          }
+        ]
+      },
+      {
+        "color": "Nude",
+        "colorCode": "#D2B48C",
+        "images": [
+          "women's_nude1.jpg",
+          "women's_nude2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P014-NUD-L",
+            "price": 1999,
+            "stock": 33
+          },
+          {
+            "size": "S",
+            "sku": "P014-NUD-S",
+            "price": 1999,
+            "stock": 10
+          },
+          {
+            "size": "XL",
+            "sku": "P014-NUD-XL",
+            "price": 2049,
+            "stock": 3
+          },
+          {
+            "size": "M",
+            "sku": "P014-NUD-M",
+            "price": 1999,
+            "stock": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P015",
+    "name": "Memory Foam Pillow",
+    "category": "Home & Living",
+    "subcategory": "Bedding",
+    "brand": "CozyNest",
+    "description": "Orthopedic memory foam pillow.",
+    "basePrice": 999,
+    "currency": "INR",
+    "rating": 4.8,
+    "tags": [
+      "bedding",
+      "pillow",
+      "comfort"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "colorCode": "#000000",
+        "images": [
+          "memory_black1.jpg",
+          "memory_black2.jpg",
+          "memory_black3.jpg",
+          "memory_black4.jpg",
+          "memory_black5.jpg",
+          "memory_black6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "5-Piece",
+            "sku": "P015-BLA-5PC",
+            "price": 999,
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P016",
+    "name": "Ceramic Dinner Set",
+    "category": "Home & Living",
+    "subcategory": "Dinnerware",
+    "brand": "HomeEssentials",
+    "description": "16-piece ceramic dinner set.",
+    "basePrice": 799,
+    "currency": "INR",
+    "rating": 4.9,
+    "tags": [
+      "dinnerware",
+      "ceramic",
+      "home"
+    ],
+    "variants": [
+      {
+        "color": "White",
+        "colorCode": "#FFFFFF",
+        "images": [
+          "ceramic_white1.jpg",
+          "ceramic_white2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "3-Piece",
+            "sku": "P016-WHI-3PC",
+            "price": 799,
+            "stock": 6
+          },
+          {
+            "size": "2-Piece",
+            "sku": "P016-WHI-2PC",
+            "price": 799,
+            "stock": 21
+          }
+        ]
+      },
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "ceramic_navy1.jpg",
+          "ceramic_navy2.jpg",
+          "ceramic_navy3.jpg",
+          "ceramic_navy4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "5-Piece",
+            "sku": "P016-NAV-5PC",
+            "price": 1699,
+            "stock": 21
+          },
+          {
+            "size": "Single",
+            "sku": "P016-NAV-SGL",
+            "price": 1499,
+            "stock": 20
+          }
+        ]
+      },
+      {
+        "color": "Pink",
+        "colorCode": "#E91E8C",
+        "images": [
+          "ceramic_pink1.jpg",
+          "ceramic_pink2.jpg",
+          "ceramic_pink3.jpg",
+          "ceramic_pink4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Single",
+            "sku": "P016-PIN-SGL",
+            "price": 3999,
+            "stock": 14
+          },
+          {
+            "size": "5-Piece",
+            "sku": "P016-PIN-5PC",
+            "price": 4199,
+            "stock": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P017",
+    "name": "Women's Sneakers",
+    "category": "Fashion",
+    "subcategory": "Footwear",
+    "brand": "StepUp",
+    "description": "Comfortable lace-up sneakers.",
+    "basePrice": 749,
+    "currency": "INR",
+    "rating": 4.8,
+    "tags": [
+      "shoes",
+      "sneakers",
+      "women"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "colorCode": "#000000",
+        "images": [
+          "women's_black1.jpg",
+          "women's_black2.jpg",
+          "women's_black3.jpg",
+          "women's_black4.jpg",
+          "women's_black5.jpg",
+          "women's_black6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XXL",
+            "sku": "P017-BLA-XXL",
+            "price": 749,
+            "stock": 22
+          },
+          {
+            "size": "L",
+            "sku": "P017-BLA-L",
+            "price": 699,
+            "stock": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P018",
+    "name": "Hair Conditioner",
+    "category": "Beauty",
+    "subcategory": "Haircare",
+    "brand": "NatureCare",
+    "description": "Deep conditioning treatment for damaged hair.",
+    "basePrice": 799,
+    "currency": "INR",
+    "rating": 4.5,
+    "tags": [
+      "haircare",
+      "conditioner"
+    ],
+    "variants": [
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "hair_grey1.jpg",
+          "hair_grey2.jpg",
+          "hair_grey3.jpg",
+          "hair_grey4.jpg",
+          "hair_grey5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P018-GRE-STD",
+            "price": 799,
+            "stock": 45
+          }
+        ]
+      },
+      {
+        "color": "Red",
+        "colorCode": "#B22222",
+        "images": [
+          "hair_red1.jpg",
+          "hair_red2.jpg",
+          "hair_red3.jpg",
+          "hair_red4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P018-RED-STD",
+            "price": 799,
+            "stock": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P019",
+    "name": "Cotton Bedsheet Set",
+    "category": "Home & Living",
+    "subcategory": "Bedding",
+    "brand": "CozyNest",
+    "description": "100% cotton double bedsheet with 2 pillow covers.",
+    "basePrice": 1999,
+    "currency": "INR",
+    "rating": 4.7,
+    "tags": [
+      "bedding",
+      "cotton",
+      "home"
+    ],
+    "variants": [
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "cotton_grey1.jpg",
+          "cotton_grey2.jpg",
+          "cotton_grey3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Single",
+            "sku": "P019-GRE-SGL",
+            "price": 1999,
+            "stock": 23
+          }
+        ]
+      },
+      {
+        "color": "Pink",
+        "colorCode": "#E91E8C",
+        "images": [
+          "cotton_pink1.jpg",
+          "cotton_pink2.jpg",
+          "cotton_pink3.jpg",
+          "cotton_pink4.jpg",
+          "cotton_pink5.jpg",
+          "cotton_pink6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "3-Piece",
+            "sku": "P019-PIN-3PC",
+            "price": 999,
+            "stock": 6
+          },
+          {
+            "size": "5-Piece",
+            "sku": "P019-PIN-5PC",
+            "price": 1199,
+            "stock": 22
+          }
+        ]
+      },
+      {
+        "color": "Black",
+        "colorCode": "#000000",
+        "images": [
+          "cotton_black1.jpg",
+          "cotton_black2.jpg",
+          "cotton_black3.jpg",
+          "cotton_black4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "5-Piece",
+            "sku": "P019-BLA-5PC",
+            "price": 1699,
+            "stock": 28
+          },
+          {
+            "size": "2-Piece",
+            "sku": "P019-BLA-2PC",
+            "price": 1499,
+            "stock": 29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P020",
+    "name": "Men's Casual Shirt",
+    "category": "Fashion",
+    "subcategory": "Men's Clothing",
+    "brand": "UrbanStyle",
+    "description": "100% cotton casual shirt, regular fit.",
+    "basePrice": 699,
+    "currency": "INR",
+    "rating": 4.6,
+    "tags": [
+      "casual",
+      "cotton",
+      "men"
+    ],
+    "variants": [
+      {
+        "color": "Pink",
+        "colorCode": "#E91E8C",
+        "images": [
+          "https://www.celticfusiondesign.com/cdn/shop/files/viking-tunic.webp?v=1775650093&width=990",
+          "https://www.celticfusiondesign.com/cdn/shop/files/celtic-tunic_312d1b07-2d03-4ef6-a37b-b3627145a735.webp?v=1775650093&width=990",
+          "https://www.celticfusiondesign.com/cdn/shop/files/viking-tunic-2.webp?v=1775650093&width=990",
+          "https://www.celticfusiondesign.com/cdn/shop/files/medieval-tunic-2.webp?v=1775650093&width=990"
+        ],
+        "sizes": [
+          {
+            "size": "S",
+            "sku": "P020-PIN-S",
+            "price": 699,
+            "stock": 40
+          },
+          {
+            "size": "XXL",
+            "sku": "P020-PIN-XXL",
+            "price": 749,
+            "stock": 16
+          },
+          {
+            "size": "M",
+            "sku": "P020-PIN-M",
+            "price": 699,
+            "stock": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P021",
+    "name": "Curtains Set",
+    "category": "Home & Living",
+    "subcategory": "Home Textile",
+    "brand": "DecoLine",
+    "description": "Blackout curtains, set of 2.",
+    "basePrice": 799,
+    "currency": "INR",
+    "rating": 4.1,
+    "tags": [
+      "curtains",
+      "textile",
+      "home"
+    ],
+    "variants": [
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "curtains_yellow1.jpg",
+          "curtains_yellow2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P021-YEL-2PC",
+            "price": 799,
+            "stock": 17
+          }
+        ]
+      },
+      {
+        "color": "Nude",
+        "colorCode": "#D2B48C",
+        "images": [
+          "curtains_nude1.jpg",
+          "curtains_nude2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "5-Piece",
+            "sku": "P021-NUD-5PC",
+            "price": 2699,
+            "stock": 4
+          }
+        ]
+      },
+      {
+        "color": "Maroon",
+        "colorCode": "#800000",
+        "images": [
+          "curtains_maroon1.jpg",
+          "curtains_maroon2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Single",
+            "sku": "P021-MAR-SGL",
+            "price": 1999,
+            "stock": 6
+          },
+          {
+            "size": "2-Piece",
+            "sku": "P021-MAR-2PC",
+            "price": 1999,
+            "stock": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P022",
+    "name": "Hydrating Face Serum",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "brand": "PureGlow",
+    "description": "Vitamin C face serum for radiant skin.",
+    "basePrice": 499,
+    "currency": "INR",
+    "rating": 4.6,
+    "tags": [
+      "skincare",
+      "serum",
+      "face"
+    ],
+    "variants": [
+      {
+        "color": "Green",
+        "colorCode": "#2E7D32",
+        "images": [
+          "hydrating_green1.jpg",
+          "hydrating_green2.jpg",
+          "hydrating_green3.jpg",
+          "hydrating_green4.jpg",
+          "hydrating_green5.jpg",
+          "hydrating_green6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P022-GRE-STD",
+            "price": 499,
+            "stock": 39
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P023",
+    "name": "Deodorant Spray",
+    "category": "Beauty",
+    "subcategory": "Fragrance",
+    "brand": "ScentLux",
+    "description": "Long-lasting deodorant spray.",
+    "basePrice": 499,
+    "currency": "INR",
+    "rating": 4.0,
+    "tags": [
+      "fragrance",
+      "deodorant"
+    ],
+    "variants": [
+      {
+        "color": "Red",
+        "colorCode": "#B22222",
+        "images": [
+          "deodorant_red1.jpg",
+          "deodorant_red2.jpg",
+          "deodorant_red3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P023-RED-STD",
+            "price": 499,
+            "stock": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P024",
+    "name": "Study Table Lamp",
+    "category": "Home & Living",
+    "subcategory": "Lighting",
+    "brand": "BrightHome",
+    "description": "Eye-care LED study lamp.",
+    "basePrice": 1999,
+    "currency": "INR",
+    "rating": 4.8,
+    "tags": [
+      "lighting",
+      "study",
+      "lamp"
+    ],
+    "variants": [
+      {
+        "color": "Nude",
+        "colorCode": "#D2B48C",
+        "images": [
+          "study_nude1.jpg",
+          "study_nude2.jpg",
+          "study_nude3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Single",
+            "sku": "P024-NUD-SGL",
+            "price": 1999,
+            "stock": 12
+          }
+        ]
+      },
+      {
+        "color": "Pink",
+        "colorCode": "#E91E8C",
+        "images": [
+          "study_pink1.jpg",
+          "study_pink2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P024-PIN-2PC",
+            "price": 3999,
+            "stock": 26
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P025",
+    "name": "Wall Clock",
+    "category": "Home & Living",
+    "subcategory": "Decor",
+    "brand": "DecoLine",
+    "description": "Modern minimalist wall clock.",
+    "basePrice": 699,
+    "currency": "INR",
+    "rating": 4.5,
+    "tags": [
+      "decor",
+      "clock",
+      "home"
+    ],
+    "variants": [
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "wall_grey1.jpg",
+          "wall_grey2.jpg",
+          "wall_grey3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "5-Piece",
+            "sku": "P025-GRE-5PC",
+            "price": 699,
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "color": "White",
+        "colorCode": "#FFFFFF",
+        "images": [
+          "wall_white1.jpg",
+          "wall_white2.jpg",
+          "wall_white3.jpg",
+          "wall_white4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "3-Piece",
+            "sku": "P025-WHI-3PC",
+            "price": 799,
+            "stock": 16
+          },
+          {
+            "size": "5-Piece",
+            "sku": "P025-WHI-5PC",
+            "price": 999,
+            "stock": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P026",
+    "name": "Hair Oil",
+    "category": "Beauty",
+    "subcategory": "Haircare",
+    "brand": "NatureCare",
+    "description": "Ayurvedic hair oil for strong roots.",
+    "basePrice": 249,
+    "currency": "INR",
+    "rating": 4.6,
+    "tags": [
+      "haircare",
+      "oil",
+      "ayurvedic"
+    ],
+    "variants": [
+      {
+        "color": "Green",
+        "colorCode": "#2E7D32",
+        "images": [
+          "hair_green1.jpg",
+          "hair_green2.jpg",
+          "hair_green3.jpg",
+          "hair_green4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P026-GRE-STD",
+            "price": 249,
+            "stock": 37
+          }
+        ]
+      },
+      {
+        "color": "Blue",
+        "colorCode": "#1E3A8A",
+        "images": [
+          "hair_blue1.jpg",
+          "hair_blue2.jpg",
+          "hair_blue3.jpg",
+          "hair_blue4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P026-BLU-STD",
+            "price": 149,
+            "stock": 6
+          }
+        ]
+      },
+      {
+        "color": "Black",
+        "colorCode": "#000000",
+        "images": [
+          "hair_black1.jpg",
+          "hair_black2.jpg",
+          "hair_black3.jpg",
+          "hair_black4.jpg",
+          "hair_black5.jpg",
+          "hair_black6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P026-BLA-STD",
+            "price": 499,
+            "stock": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P027",
+    "name": "Lip Balm",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "brand": "PureGlow",
+    "description": "Nourishing lip balm with shea butter.",
+    "basePrice": 199,
+    "currency": "INR",
+    "rating": 3.8,
+    "tags": [
+      "skincare",
+      "lips",
+      "balm"
+    ],
+    "variants": [
+      {
+        "color": "Nude",
+        "colorCode": "#D2B48C",
+        "images": [
+          "lip_nude1.jpg",
+          "lip_nude2.jpg",
+          "lip_nude3.jpg",
+          "lip_nude4.jpg",
+          "lip_nude5.jpg",
+          "lip_nude6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P027-NUD-STD",
+            "price": 199,
+            "stock": 24
+          }
+        ]
+      },
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "lip_navy1.jpg",
+          "lip_navy2.jpg",
+          "lip_navy3.jpg",
+          "lip_navy4.jpg",
+          "lip_navy5.jpg",
+          "lip_navy6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P027-NAV-STD",
+            "price": 299,
+            "stock": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P028",
+    "name": "Herbal Shampoo",
+    "category": "Beauty",
+    "subcategory": "Haircare",
+    "brand": "NatureCare",
+    "description": "Sulphate-free herbal shampoo for all hair types.",
+    "basePrice": 299,
+    "currency": "INR",
+    "rating": 4.5,
+    "tags": [
+      "haircare",
+      "shampoo",
+      "herbal"
+    ],
+    "variants": [
+      {
+        "color": "Blue",
+        "colorCode": "#1E3A8A",
+        "images": [
+          "herbal_blue1.jpg",
+          "herbal_blue2.jpg",
+          "herbal_blue3.jpg",
+          "herbal_blue4.jpg",
+          "herbal_blue5.jpg",
+          "herbal_blue6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P028-BLU-STD",
+            "price": 299,
+            "stock": 23
+          }
+        ]
+      },
+      {
+        "color": "Maroon",
+        "colorCode": "#800000",
+        "images": [
+          "herbal_maroon1.jpg",
+          "herbal_maroon2.jpg",
+          "herbal_maroon3.jpg",
+          "herbal_maroon4.jpg",
+          "herbal_maroon5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P028-MAR-STD",
+            "price": 199,
+            "stock": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P029",
+    "name": "Eyeliner Pencil",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "brand": "GlowUp",
+    "description": "Smudge-proof waterproof eyeliner.",
+    "basePrice": 349,
+    "currency": "INR",
+    "rating": 4.2,
+    "tags": [
+      "makeup",
+      "eyes",
+      "eyeliner"
+    ],
+    "variants": [
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "eyeliner_navy1.jpg",
+          "eyeliner_navy2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P029-NAV-STD",
+            "price": 349,
+            "stock": 32
+          }
+        ]
+      },
+      {
+        "color": "Green",
+        "colorCode": "#2E7D32",
+        "images": [
+          "eyeliner_green1.jpg",
+          "eyeliner_green2.jpg",
+          "eyeliner_green3.jpg",
+          "eyeliner_green4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P029-GRE-STD",
+            "price": 499,
+            "stock": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P030",
+    "name": "Bathroom Towel Set",
+    "category": "Home & Living",
+    "subcategory": "Bath",
+    "brand": "CozyNest",
+    "description": "Soft cotton towel set, 4 pieces.",
+    "basePrice": 2999,
+    "currency": "INR",
+    "rating": 4.0,
+    "tags": [
+      "bath",
+      "towel",
+      "cotton"
+    ],
+    "variants": [
+      {
+        "color": "Maroon",
+        "colorCode": "#800000",
+        "images": [
+          "bathroom_maroon1.jpg",
+          "bathroom_maroon2.jpg",
+          "bathroom_maroon3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P030-MAR-2PC",
+            "price": 2999,
+            "stock": 18
+          },
+          {
+            "size": "3-Piece",
+            "sku": "P030-MAR-3PC",
+            "price": 2999,
+            "stock": 9
+          }
+        ]
+      },
+      {
+        "color": "Red",
+        "colorCode": "#B22222",
+        "images": [
+          "bathroom_red1.jpg",
+          "bathroom_red2.jpg",
+          "bathroom_red3.jpg",
+          "bathroom_red4.jpg",
+          "bathroom_red5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "3-Piece",
+            "sku": "P030-RED-3PC",
+            "price": 4999,
+            "stock": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P031",
+    "name": "Yoga Mat",
+    "category": "Home & Living",
+    "subcategory": "Fitness",
+    "brand": "FitGear",
+    "description": "Anti-slip yoga mat with carry strap.",
+    "basePrice": 3999,
+    "currency": "INR",
+    "rating": 3.8,
+    "tags": [
+      "fitness",
+      "yoga",
+      "home"
+    ],
+    "variants": [
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "yoga_navy1.jpg",
+          "yoga_navy2.jpg",
+          "yoga_navy3.jpg",
+          "yoga_navy4.jpg",
+          "yoga_navy5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P031-NAV-2PC",
+            "price": 3999,
+            "stock": 15
+          },
+          {
+            "size": "3-Piece",
+            "sku": "P031-NAV-3PC",
+            "price": 3999,
+            "stock": 25
+          }
+        ]
+      },
+      {
+        "color": "Pink",
+        "colorCode": "#E91E8C",
+        "images": [
+          "yoga_pink1.jpg",
+          "yoga_pink2.jpg",
+          "yoga_pink3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "3-Piece",
+            "sku": "P031-PIN-3PC",
+            "price": 799,
+            "stock": 26
+          },
+          {
+            "size": "Single",
+            "sku": "P031-PIN-SGL",
+            "price": 799,
+            "stock": 30
+          }
+        ]
+      },
+      {
+        "color": "Green",
+        "colorCode": "#2E7D32",
+        "images": [
+          "yoga_green1.jpg",
+          "yoga_green2.jpg",
+          "yoga_green3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P031-GRE-2PC",
+            "price": 1999,
+            "stock": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P032",
+    "name": "LED Table Lamp",
+    "category": "Home & Living",
+    "subcategory": "Lighting",
+    "brand": "BrightHome",
+    "description": "Adjustable LED table lamp with touch control.",
+    "basePrice": 999,
+    "currency": "INR",
+    "rating": 4.6,
+    "tags": [
+      "lighting",
+      "lamp",
+      "home"
+    ],
+    "variants": [
+      {
+        "color": "Beige",
+        "colorCode": "#E8D5B7",
+        "images": [
+          "led_beige1.jpg",
+          "led_beige2.jpg",
+          "led_beige3.jpg",
+          "led_beige4.jpg",
+          "led_beige5.jpg",
+          "led_beige6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "5-Piece",
+            "sku": "P032-BEI-5PC",
+            "price": 999,
+            "stock": 18
+          },
+          {
+            "size": "3-Piece",
+            "sku": "P032-BEI-3PC",
+            "price": 799,
+            "stock": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P033",
+    "name": "Foundation",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "brand": "GlowUp",
+    "description": "Full coverage liquid foundation.",
+    "basePrice": 249,
+    "currency": "INR",
+    "rating": 4.3,
+    "tags": [
+      "makeup",
+      "face",
+      "foundation"
+    ],
+    "variants": [
+      {
+        "color": "Beige",
+        "colorCode": "#E8D5B7",
+        "images": [
+          "foundation_beige1.jpg",
+          "foundation_beige2.jpg",
+          "foundation_beige3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P033-BEI-STD",
+            "price": 249,
+            "stock": 41
+          }
+        ]
+      },
+      {
+        "color": "Nude",
+        "colorCode": "#D2B48C",
+        "images": [
+          "foundation_nude1.jpg",
+          "foundation_nude2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P033-NUD-STD",
+            "price": 199,
+            "stock": 49
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P034",
+    "name": "Air Purifier",
+    "category": "Home & Living",
+    "subcategory": "Appliances",
+    "brand": "BreatheEasy",
+    "description": "HEPA filter air purifier for medium rooms.",
+    "basePrice": 3999,
+    "currency": "INR",
+    "rating": 4.7,
+    "tags": [
+      "appliance",
+      "air",
+      "purifier"
+    ],
+    "variants": [
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "air_yellow1.jpg",
+          "air_yellow2.jpg",
+          "air_yellow3.jpg",
+          "air_yellow4.jpg",
+          "air_yellow5.jpg",
+          "air_yellow6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P034-YEL-2PC",
+            "price": 3999,
+            "stock": 29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P035",
+    "name": "Women's Saree",
+    "category": "Fashion",
+    "subcategory": "Women's Clothing",
+    "brand": "EthnicEdge",
+    "description": "Pure silk saree with zari border.",
+    "basePrice": 2049,
+    "currency": "INR",
+    "rating": 4.3,
+    "tags": [
+      "saree",
+      "ethnic",
+      "women"
+    ],
+    "variants": [
+      {
+        "color": "Red",
+        "colorCode": "#B22222",
+        "images": [
+          "women's_red1.jpg",
+          "women's_red2.jpg",
+          "women's_red3.jpg",
+          "women's_red4.jpg",
+          "women's_red5.jpg",
+          "women's_red6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XXL",
+            "sku": "P035-RED-XXL",
+            "price": 2049,
+            "stock": 28
+          },
+          {
+            "size": "L",
+            "sku": "P035-RED-L",
+            "price": 1999,
+            "stock": 10
+          },
+          {
+            "size": "M",
+            "sku": "P035-RED-M",
+            "price": 1999,
+            "stock": 47
+          },
+          {
+            "size": "XL",
+            "sku": "P035-RED-XL",
+            "price": 2049,
+            "stock": 30
+          }
+        ]
+      },
+      {
+        "color": "Beige",
+        "colorCode": "#E8D5B7",
+        "images": [
+          "women's_beige1.jpg",
+          "women's_beige2.jpg",
+          "women's_beige3.jpg",
+          "women's_beige4.jpg",
+          "women's_beige5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "M",
+            "sku": "P035-BEI-M",
+            "price": 1499,
+            "stock": 40
+          },
+          {
+            "size": "L",
+            "sku": "P035-BEI-L",
+            "price": 1499,
+            "stock": 15
+          },
+          {
+            "size": "XL",
+            "sku": "P035-BEI-XL",
+            "price": 1549,
+            "stock": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P036",
+    "name": "Vacuum Cleaner",
+    "category": "Home & Living",
+    "subcategory": "Appliances",
+    "brand": "CleanPro",
+    "description": "Lightweight bagless vacuum cleaner.",
+    "basePrice": 2499,
+    "currency": "INR",
+    "rating": 4.7,
+    "tags": [
+      "appliance",
+      "vacuum",
+      "cleaning"
+    ],
+    "variants": [
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "vacuum_grey1.jpg",
+          "vacuum_grey2.jpg",
+          "vacuum_grey3.jpg",
+          "vacuum_grey4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P036-GRE-2PC",
+            "price": 2499,
+            "stock": 4
+          }
+        ]
+      },
+      {
+        "color": "White",
+        "colorCode": "#FFFFFF",
+        "images": [
+          "vacuum_white1.jpg",
+          "vacuum_white2.jpg",
+          "vacuum_white3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P036-WHI-2PC",
+            "price": 2999,
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "vacuum_yellow1.jpg",
+          "vacuum_yellow2.jpg",
+          "vacuum_yellow3.jpg",
+          "vacuum_yellow4.jpg",
+          "vacuum_yellow5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "5-Piece",
+            "sku": "P036-YEL-5PC",
+            "price": 3199,
+            "stock": 1
+          },
+          {
+            "size": "2-Piece",
+            "sku": "P036-YEL-2PC",
+            "price": 2999,
+            "stock": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P037",
+    "name": "Indoor Plant Pot",
+    "category": "Home & Living",
+    "subcategory": "Decor",
+    "brand": "GreenNest",
+    "description": "Ceramic pot for indoor plants.",
+    "basePrice": 2999,
+    "currency": "INR",
+    "rating": 4.1,
+    "tags": [
+      "decor",
+      "plant",
+      "pot"
+    ],
+    "variants": [
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "indoor_navy1.jpg",
+          "indoor_navy2.jpg",
+          "indoor_navy3.jpg",
+          "indoor_navy4.jpg",
+          "indoor_navy5.jpg",
+          "indoor_navy6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Single",
+            "sku": "P037-NAV-SGL",
+            "price": 2999,
+            "stock": 9
+          },
+          {
+            "size": "2-Piece",
+            "sku": "P037-NAV-2PC",
+            "price": 2999,
+            "stock": 24
+          }
+        ]
+      },
+      {
+        "color": "Blue",
+        "colorCode": "#1E3A8A",
+        "images": [
+          "indoor_blue1.jpg",
+          "indoor_blue2.jpg",
+          "indoor_blue3.jpg",
+          "indoor_blue4.jpg",
+          "indoor_blue5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "5-Piece",
+            "sku": "P037-BLU-5PC",
+            "price": 3199,
+            "stock": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P038",
+    "name": "Men's Denim Jacket",
+    "category": "Fashion",
+    "subcategory": "Men's Clothing",
+    "brand": "UrbanStyle",
+    "description": "Classic denim jacket with a modern fit.",
+    "basePrice": 2549,
+    "currency": "INR",
+    "rating": 4.2,
+    "tags": [
+      "denim",
+      "jacket",
+      "men"
+    ],
+    "variants": [
+      {
+        "color": "Blue",
+        "colorCode": "#1E3A8A",
+        "images": [
+          "https://www.celticfusiondesign.com/cdn/shop/files/medieval-style-tunic_2B_282_29_efb8c4f0-f42b-436e-b5de-c6ca1164cedb.webp?v=1775650144&width=990",
+          "men's_blue2.jpg",
+          "men's_blue3.jpg",
+          "men's_blue4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XL",
+            "sku": "P038-BLU-XL",
+            "price": 2549,
+            "stock": 34
+          },
+          {
+            "size": "M",
+            "sku": "P038-BLU-M",
+            "price": 2499,
+            "stock": 1
+          },
+          {
+            "size": "XXL",
+            "sku": "P038-BLU-XXL",
+            "price": 2549,
+            "stock": 25
+          },
+          {
+            "size": "S",
+            "sku": "P038-BLU-S",
+            "price": 2499,
+            "stock": 37
+          }
+        ]
+      },
+      {
+        "color": "Nude",
+        "colorCode": "#D2B48C",
+        "images": [
+          "men's_nude1.jpg",
+          "men's_nude2.jpg",
+          "men's_nude3.jpg",
+          "men's_nude4.jpg",
+          "men's_nude5.jpg",
+          "men's_nude6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "S",
+            "sku": "P038-NUD-S",
+            "price": 699,
+            "stock": 29
+          },
+          {
+            "size": "XXL",
+            "sku": "P038-NUD-XXL",
+            "price": 749,
+            "stock": 11
+          },
+          {
+            "size": "L",
+            "sku": "P038-NUD-L",
+            "price": 699,
+            "stock": 3
+          },
+          {
+            "size": "M",
+            "sku": "P038-NUD-M",
+            "price": 699,
+            "stock": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P039",
+    "name": "Perfume Eau de Parfum",
+    "category": "Beauty",
+    "subcategory": "Fragrance",
+    "brand": "ScentLux",
+    "description": "Long-lasting floral fragrance.",
+    "basePrice": 399,
+    "currency": "INR",
+    "rating": 4.8,
+    "tags": [
+      "fragrance",
+      "perfume"
+    ],
+    "variants": [
+      {
+        "color": "Beige",
+        "colorCode": "#E8D5B7",
+        "images": [
+          "perfume_beige1.jpg",
+          "perfume_beige2.jpg",
+          "perfume_beige3.jpg",
+          "perfume_beige4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P039-BEI-STD",
+            "price": 399,
+            "stock": 48
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P040",
+    "name": "Wooden Dining Table",
+    "category": "Home & Living",
+    "subcategory": "Furniture",
+    "brand": "WoodCraft",
+    "description": "6-seater solid wood dining table.",
+    "basePrice": 3999,
+    "currency": "INR",
+    "rating": 3.8,
+    "tags": [
+      "furniture",
+      "dining",
+      "wood"
+    ],
+    "variants": [
+      {
+        "color": "Nude",
+        "colorCode": "#D2B48C",
+        "images": [
+          "wooden_nude1.jpg",
+          "wooden_nude2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Single",
+            "sku": "P040-NUD-SGL",
+            "price": 3999,
+            "stock": 30
+          }
+        ]
+      },
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "wooden_grey1.jpg",
+          "wooden_grey2.jpg",
+          "wooden_grey3.jpg",
+          "wooden_grey4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Single",
+            "sku": "P040-GRE-SGL",
+            "price": 1499,
+            "stock": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P041",
+    "name": "Men's Formal Trousers",
+    "category": "Fashion",
+    "subcategory": "Men's Clothing",
+    "brand": "Turtle",
+    "description": "Slim-fit formal trousers for office wear.",
+    "basePrice": 599,
+    "currency": "INR",
+    "rating": 4.1,
+    "tags": [
+      "formal",
+      "trousers",
+      "men"
+    ],
+    "variants": [
+      {
+        "color": "White",
+        "colorCode": "#FFFFFF",
+        "images": [
+          "https://www.celticfusiondesign.com/cdn/shop/files/mens_2Btrouser_2Bkevin_2Bwith_2Blogo-2_2d8de1fa-1ff9-44f0-a31f-934576758249.webp?v=1775650059&width=990",
+          "https://www.celticfusiondesign.com/cdn/shop/files/mens_2Btrouser_2Bkevin_2Bwith_2Blogo-5.webp?v=1775650059&width=990"
+        ],
+        "sizes": [
+          {
+            "size": "M",
+            "sku": "P041-WHI-M",
+            "price": 599,
+            "stock": 36
+          },
+          {
+            "size": "XXL",
+            "sku": "P041-WHI-XXL",
+            "price": 649,
+            "stock": 13
+          },
+          {
+            "size": "S",
+            "sku": "P041-WHI-S",
+            "price": 599,
+            "stock": 29
+          },
+          {
+            "size": "XL",
+            "sku": "P041-WHI-XL",
+            "price": 649,
+            "stock": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P042",
+    "name": "Non-Stick Cookware Set",
+    "category": "Home & Living",
+    "subcategory": "Kitchenware",
+    "brand": "HomeEssentials",
+    "description": "Non-stick cookware set for everyday cooking.",
+    "basePrice": 799,
+    "currency": "INR",
+    "rating": 4.0,
+    "tags": [
+      "kitchen",
+      "cookware",
+      "home"
+    ],
+    "variants": [
+      {
+        "color": "Red",
+        "colorCode": "#B22222",
+        "images": [
+          "non-stick_red1.jpg",
+          "non-stick_red2.jpg",
+          "non-stick_red3.jpg",
+          "non-stick_red4.jpg",
+          "non-stick_red5.jpg",
+          "non-stick_red6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "3-Piece",
+            "sku": "P042-RED-3PC",
+            "price": 799,
+            "stock": 3
+          }
+        ]
+      },
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "non-stick_navy1.jpg",
+          "non-stick_navy2.jpg",
+          "non-stick_navy3.jpg",
+          "non-stick_navy4.jpg",
+          "non-stick_navy5.jpg",
+          "non-stick_navy6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "5-Piece",
+            "sku": "P042-NAV-5PC",
+            "price": 699,
+            "stock": 30
+          },
+          {
+            "size": "2-Piece",
+            "sku": "P042-NAV-2PC",
+            "price": 499,
+            "stock": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P043",
+    "name": "Women's Kurti",
+    "category": "Fashion",
+    "subcategory": "Women's Clothing",
+    "brand": "EthnicEdge",
+    "description": "Printed cotton kurti, straight fit.",
+    "basePrice": 999,
+    "currency": "INR",
+    "rating": 4.3,
+    "tags": [
+      "ethnic",
+      "kurti",
+      "women"
+    ],
+    "variants": [
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "women's_yellow1.jpg",
+          "women's_yellow2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P043-YEL-L",
+            "price": 999,
+            "stock": 34
+          },
+          {
+            "size": "S",
+            "sku": "P043-YEL-S",
+            "price": 999,
+            "stock": 27
+          },
+          {
+            "size": "XXL",
+            "sku": "P043-YEL-XXL",
+            "price": 1049,
+            "stock": 42
+          },
+          {
+            "size": "XL",
+            "sku": "P043-YEL-XL",
+            "price": 1049,
+            "stock": 23
+          }
+        ]
+      },
+      {
+        "color": "Pink",
+        "colorCode": "#E91E8C",
+        "images": [
+          "women's_pink1.jpg",
+          "women's_pink2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P043-PIN-L",
+            "price": 599,
+            "stock": 27
+          },
+          {
+            "size": "S",
+            "sku": "P043-PIN-S",
+            "price": 599,
+            "stock": 23
+          },
+          {
+            "size": "M",
+            "sku": "P043-PIN-M",
+            "price": 599,
+            "stock": 40
+          },
+          {
+            "size": "XXL",
+            "sku": "P043-PIN-XXL",
+            "price": 649,
+            "stock": 29
+          }
+        ]
+      },
+      {
+        "color": "White",
+        "colorCode": "#FFFFFF",
+        "images": [
+          "women's_white1.jpg",
+          "women's_white2.jpg",
+          "women's_white3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "M",
+            "sku": "P043-WHI-M",
+            "price": 1999,
+            "stock": 49
+          },
+          {
+            "size": "L",
+            "sku": "P043-WHI-L",
+            "price": 1999,
+            "stock": 30
+          },
+          {
+            "size": "XL",
+            "sku": "P043-WHI-XL",
+            "price": 2049,
+            "stock": 29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P044",
+    "name": "Women's Handbag",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "brand": "LuxeCarry",
+    "description": "Faux leather structured handbag.",
+    "basePrice": 799,
+    "currency": "INR",
+    "rating": 4.1,
+    "tags": [
+      "bag",
+      "accessories",
+      "women"
+    ],
+    "variants": [
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "women's_navy1.jpg",
+          "women's_navy2.jpg",
+          "women's_navy3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P044-NAV-L",
+            "price": 799,
+            "stock": 48
+          },
+          {
+            "size": "XL",
+            "sku": "P044-NAV-XL",
+            "price": 849,
+            "stock": 29
+          }
+        ]
+      },
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "women's_grey1.jpg",
+          "women's_grey2.jpg",
+          "women's_grey3.jpg",
+          "women's_grey4.jpg",
+          "women's_grey5.jpg",
+          "women's_grey6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XL",
+            "sku": "P044-GRE-XL",
+            "price": 1049,
+            "stock": 11
+          },
+          {
+            "size": "L",
+            "sku": "P044-GRE-L",
+            "price": 999,
+            "stock": 31
+          },
+          {
+            "size": "S",
+            "sku": "P044-GRE-S",
+            "price": 999,
+            "stock": 13
+          },
+          {
+            "size": "M",
+            "sku": "P044-GRE-M",
+            "price": 999,
+            "stock": 22
+          }
+        ]
+      },
+      {
+        "color": "Green",
+        "colorCode": "#2E7D32",
+        "images": [
+          "women's_green1.jpg",
+          "women's_green2.jpg",
+          "women's_green3.jpg",
+          "women's_green4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P044-GRE-L",
+            "price": 499,
+            "stock": 33
+          },
+          {
+            "size": "XXL",
+            "sku": "P044-GRE-XXL",
+            "price": 549,
+            "stock": 12
+          },
+          {
+            "size": "XL",
+            "sku": "P044-GRE-XL",
+            "price": 549,
+            "stock": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P045",
+    "name": "Men's Polo T-Shirt",
+    "category": "Fashion",
+    "subcategory": "Men's Clothing",
+    "brand": "UrbanStyle",
+    "description": "Pique cotton polo t-shirt.",
+    "basePrice": 649,
+    "currency": "INR",
+    "rating": 4.9,
+    "tags": [
+      "polo",
+      "cotton",
+      "men"
+    ],
+    "variants": [
+      {
+        "color": "Beige",
+        "colorCode": "#E8D5B7",
+        "images": [
+          "https://gant.in/cdn/shop/files/1_GMS26-008058207277_1100x.jpg?v=1781608437",
+          "https://gant.in/cdn/shop/files/3_GMS26-008058207277.jpg?v=1781608373",
+          "https://gant.in/cdn/shop/files/2_GMS26-008058207277.jpg?v=1781608437",
+          "https://gant.in/cdn/shop/files/4_GMS26-008058207277.jpg?v=1781608373"
+        ],
+        "sizes": [
+          {
+            "size": "XL",
+            "sku": "P045-BEI-XL",
+            "price": 649,
+            "stock": 18
+          },
+          {
+            "size": "XXL",
+            "sku": "P045-BEI-XXL",
+            "price": 649,
+            "stock": 14
+          },
+          {
+            "size": "M",
+            "sku": "P045-BEI-M",
+            "price": 599,
+            "stock": 25
+          },
+          {
+            "size": "S",
+            "sku": "P045-BEI-S",
+            "price": 599,
+            "stock": 44
+          }
+        ]
+      },
+      {
+        "color": "Maroon",
+        "colorCode": "#800000",
+        "images": [
+          "men's_maroon1.jpg",
+          "men's_maroon2.jpg",
+          "men's_maroon3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XXL",
+            "sku": "P045-MAR-XXL",
+            "price": 2049,
+            "stock": 33
+          },
+          {
+            "size": "L",
+            "sku": "P045-MAR-L",
+            "price": 1999,
+            "stock": 22
+          },
+          {
+            "size": "M",
+            "sku": "P045-MAR-M",
+            "price": 1999,
+            "stock": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P046",
+    "name": "Women's Winter Coat",
+    "category": "Fashion",
+    "subcategory": "Women's Clothing",
+    "brand": "Chic Vogue",
+    "description": "Warm wool-blend winter coat.",
+    "basePrice": 799,
+    "currency": "INR",
+    "rating": 3.8,
+    "tags": [
+      "coat",
+      "winter",
+      "women"
+    ],
+    "variants": [
+      {
+        "color": "Green",
+        "colorCode": "#2E7D32",
+        "images": [
+          "women's_green1.jpg",
+          "women's_green2.jpg",
+          "women's_green3.jpg",
+          "women's_green4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P046-GRE-L",
+            "price": 799,
+            "stock": 20
+          },
+          {
+            "size": "M",
+            "sku": "P046-GRE-M",
+            "price": 799,
+            "stock": 7
+          },
+          {
+            "size": "S",
+            "sku": "P046-GRE-S",
+            "price": 799,
+            "stock": 47
+          }
+        ]
+      },
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "women's_yellow1.jpg",
+          "women's_yellow2.jpg",
+          "women's_yellow3.jpg",
+          "women's_yellow4.jpg",
+          "women's_yellow5.jpg",
+          "women's_yellow6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "M",
+            "sku": "P046-YEL-M",
+            "price": 899,
+            "stock": 46
+          },
+          {
+            "size": "XXL",
+            "sku": "P046-YEL-XXL",
+            "price": 949,
+            "stock": 37
+          },
+          {
+            "size": "S",
+            "sku": "P046-YEL-S",
+            "price": 899,
+            "stock": 48
+          },
+          {
+            "size": "XL",
+            "sku": "P046-YEL-XL",
+            "price": 949,
+            "stock": 33
+          }
+        ]
+      },
+      {
+        "color": "Beige",
+        "colorCode": "#E8D5B7",
+        "images": [
+          "women's_beige1.jpg",
+          "women's_beige2.jpg",
+          "women's_beige3.jpg",
+          "women's_beige4.jpg",
+          "women's_beige5.jpg",
+          "women's_beige6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "S",
+            "sku": "P046-BEI-S",
+            "price": 799,
+            "stock": 23
+          },
+          {
+            "size": "M",
+            "sku": "P046-BEI-M",
+            "price": 799,
+            "stock": 11
+          },
+          {
+            "size": "XL",
+            "sku": "P046-BEI-XL",
+            "price": 849,
+            "stock": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P047",
+    "name": "Matte Lipstick",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "brand": "GlowUp",
+    "description": "Long-lasting matte finish lipstick.",
+    "basePrice": 799,
+    "currency": "INR",
+    "rating": 4.3,
+    "tags": [
+      "makeup",
+      "lips",
+      "matte"
+    ],
+    "variants": [
+      {
+        "color": "Red",
+        "colorCode": "#B22222",
+        "images": [
+          "matte_red1.jpg",
+          "matte_red2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P047-RED-STD",
+            "price": 799,
+            "stock": 18
+          }
+        ]
+      },
+      {
+        "color": "Grey",
+        "colorCode": "#808080",
+        "images": [
+          "matte_grey1.jpg",
+          "matte_grey2.jpg",
+          "matte_grey3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P047-GRE-STD",
+            "price": 599,
+            "stock": 6
+          }
+        ]
+      },
+      {
+        "color": "Blue",
+        "colorCode": "#1E3A8A",
+        "images": [
+          "matte_blue1.jpg",
+          "matte_blue2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "Standard",
+            "sku": "P047-BLU-STD",
+            "price": 349,
+            "stock": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P048",
+    "name": "Women's Floral Dress",
+    "category": "Fashion",
+    "subcategory": "Women's Clothing",
+    "brand": "Chic Vogue",
+    "description": "Lightweight floral printed summer dress.",
+    "basePrice": 1499,
+    "currency": "INR",
+    "rating": 4.4,
+    "tags": [
+      "dress",
+      "floral",
+      "women"
+    ],
+    "variants": [
+      {
+        "color": "Red",
+        "colorCode": "#B22222",
+        "images": [
+          "women's_red1.jpg",
+          "women's_red2.jpg",
+          "women's_red3.jpg",
+          "women's_red4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "S",
+            "sku": "P048-RED-S",
+            "price": 1499,
+            "stock": 4
+          },
+          {
+            "size": "XXL",
+            "sku": "P048-RED-XXL",
+            "price": 1549,
+            "stock": 36
+          },
+          {
+            "size": "M",
+            "sku": "P048-RED-M",
+            "price": 1499,
+            "stock": 40
+          }
+        ]
+      },
+      {
+        "color": "Blue",
+        "colorCode": "#1E3A8A",
+        "images": [
+          "women's_blue1.jpg",
+          "women's_blue2.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "M",
+            "sku": "P048-BLU-M",
+            "price": 599,
+            "stock": 15
+          },
+          {
+            "size": "L",
+            "sku": "P048-BLU-L",
+            "price": 599,
+            "stock": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P049",
+    "name": "Men's Sports Tracksuit",
+    "category": "Fashion",
+    "subcategory": "Men's Clothing",
+    "brand": "FitGear",
+    "description": "Breathable tracksuit for workouts.",
+    "basePrice": 1549,
+    "currency": "INR",
+    "rating": 4.0,
+    "tags": [
+      "sports",
+      "tracksuit",
+      "men"
+    ],
+    "variants": [
+      {
+        "color": "Navy",
+        "colorCode": "#001F3F",
+        "images": [
+          "https://chapter2drip.com/cdn/shop/files/Untitled_Session1791.jpg?v=1771309489&width=1445",
+          "https://chapter2drip.com/cdn/shop/files/Untitled_Session1796.jpg?v=1771309489&width=1445",
+          "men's_navy3.jpg",
+          "men's_navy4.jpg",
+          "men's_navy5.jpg",
+          "men's_navy6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "XXL",
+            "sku": "P049-NAV-XXL",
+            "price": 1549,
+            "stock": 28
+          },
+          {
+            "size": "XL",
+            "sku": "P049-NAV-XL",
+            "price": 1549,
+            "stock": 19
+          }
+        ]
+      },
+      {
+        "color": "Yellow",
+        "colorCode": "#F2C94C",
+        "images": [
+          "men's_yellow1.jpg",
+          "men's_yellow2.jpg",
+          "men's_yellow3.jpg",
+          "men's_yellow4.jpg",
+          "men's_yellow5.jpg",
+          "men's_yellow6.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "L",
+            "sku": "P049-YEL-L",
+            "price": 599,
+            "stock": 48
+          },
+          {
+            "size": "S",
+            "sku": "P049-YEL-S",
+            "price": 599,
+            "stock": 13
+          },
+          {
+            "size": "XXL",
+            "sku": "P049-YEL-XXL",
+            "price": 649,
+            "stock": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P050",
+    "name": "Storage Organizer Box",
+    "category": "Home & Living",
+    "subcategory": "Storage",
+    "brand": "TidyHome",
+    "description": "Multi-purpose foldable storage box.",
+    "basePrice": 4999,
+    "currency": "INR",
+    "rating": 4.1,
+    "tags": [
+      "storage",
+      "organizer",
+      "home"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "colorCode": "#000000",
+        "images": [
+          "storage_black1.jpg",
+          "storage_black2.jpg",
+          "storage_black3.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P050-BLA-2PC",
+            "price": 4999,
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "color": "Red",
+        "colorCode": "#B22222",
+        "images": [
+          "storage_red1.jpg",
+          "storage_red2.jpg",
+          "storage_red3.jpg",
+          "storage_red4.jpg",
+          "storage_red5.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "3-Piece",
+            "sku": "P050-RED-3PC",
+            "price": 3999,
+            "stock": 7
+          },
+          {
+            "size": "Single",
+            "sku": "P050-RED-SGL",
+            "price": 3999,
+            "stock": 9
+          }
+        ]
+      },
+      {
+        "color": "White",
+        "colorCode": "#FFFFFF",
+        "images": [
+          "storage_white1.jpg",
+          "storage_white2.jpg",
+          "storage_white3.jpg",
+          "storage_white4.jpg"
+        ],
+        "sizes": [
+          {
+            "size": "2-Piece",
+            "sku": "P050-WHI-2PC",
+            "price": 3999,
+            "stock": 29
+          }
+        ]
+      }
+    ]
+  }
+]
