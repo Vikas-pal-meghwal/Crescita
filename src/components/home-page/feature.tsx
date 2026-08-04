@@ -123,7 +123,7 @@ const FeatureList = ({
                             price={p.variants[0].sizes[0].price}
                             currency="₹"
                             images={p.variants[0].images}
-                            onDoubleClick={() => navigate(`/product/${p.id}`)}
+                            onClick={() => navigate(`/product/${p.id}`)}
                         />
                     </div>
                 ))}

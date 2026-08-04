@@ -132,10 +132,10 @@ function WishlistCard({
 
   return (
     <div
-      className="group relative"
+      className="group relative cursor-pointer"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      onDoubleClick={onNavigate}
+      onClick={onNavigate}
     >
       {/* Image */}
       <div className="relative aspect-[3/4] overflow-hidden bg-gray-100 rounded cursor-pointer mb-2">

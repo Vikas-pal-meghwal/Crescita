@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { ProductGallery } from "../components/product-details/image-gallery";
+import ProductDetailsSkeleton from "../components/product-details/product-skeleton";
 import SizeGuide from "../components/size-guide";
-import products from "../data/products.json";
+import { fetchProductById } from "../services/api";
 import ProductCard from "../components/product/productcard";
+import allProducts from "../data/products.json";
 
 // ── Icons ──────────────────────────────────────────────────────────────────
 
@@ -87,19 +89,6 @@ const ChatIcon = () => (
   </svg>
 );
 
-const PlusIcon = () => (
-  <svg
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    className="w-3.5 h-3.5 stroke-gray-400"
-  >
-    <line x1="12" y1="5" x2="12" y2="19" />
-    <line x1="5" y1="12" x2="19" y2="12" />
-  </svg>
-);
-
 const StarIcon = ({ filled }: { filled: boolean }) => (
   <svg
     viewBox="0 0 20 20"
@@ -155,8 +144,8 @@ function Accordion({
 
 const ProductDetails = () => {
   const { id } = useParams();
-  const product = products.find((p) => p.id === id) ?? products[0];
-
+  const [product, setProduct] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
   const [selectedColorIdx, setSelectedColorIdx] = useState(0);
   const [selectedSizeIdx, setSelectedSizeIdx] = useState(0);
   const [qty, setQty] = useState(1);
@@ -164,6 +153,29 @@ const ProductDetails = () => {
   const [addedToCart, setAddedToCart] = useState(false);
   const [wishlist, setWishlist] = useState(false);
   const [sizeGuideOpen, setSizeGuideOpen] = useState(false);
+
+  useEffect(() => {
+    const loadProduct = async () => {
+      try {
+        if (id) {
+          const data = await fetchProductById(id);
+          setProduct(data);
+          setSelectedColorIdx(0);
+          setSelectedSizeIdx(0);
+          setQty(1);
+        }
+      } catch (error) {
+        console.error('Failed to load product:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadProduct();
+  }, [id]);
+
+  if (loading || !product) {
+    return <ProductDetailsSkeleton />;
+  }
 
   const variant = product.variants[selectedColorIdx];
   const selectedSize = variant.sizes[selectedSizeIdx];
@@ -197,31 +209,31 @@ const ProductDetails = () => {
     variant.sizes.length === 1 && variant.sizes[0].size === "Standard";
 
   // "You may also like" — other products
-  const alsoLike = products.filter((_, i) => i !== 0).slice(0, 6);
+  const alsoLike = allProducts.filter((_, i) => i !== 0).slice(0, 6);
 
   return (
     <>
       {/* Breadcrumb */}
-      <div className="text-[11px] text-gray-400 flex items-center gap-1.5 py-2.5 px-8 border-b border-gray-100">
-        <a href="#" className="hover:text-gray-700 transition-colors">
+      <div className="text-[11px] text-gray-400 flex items-center gap-1.5 py-2.5 px-4 sm:px-6 lg:px-8 border-b border-gray-100 flex-wrap overflow-x-auto">
+        <a href="/" className="hover:text-gray-700 transition-colors shrink-0">
           Home
         </a>
         <span>/</span>
-        <a href="#" className="hover:text-gray-700 transition-colors">
+        <a href="/products" className="hover:text-gray-700 transition-colors shrink-0">
           {product.category}
         </a>
         <span>/</span>
-        <a href="#" className="hover:text-gray-700 transition-colors">
+        <a href="/products" className="hover:text-gray-700 transition-colors shrink-0">
           {product.subcategory}
         </a>
         <span>/</span>
-        <span className="text-gray-800">{product.name}</span>
+        <span className="text-gray-800 font-medium truncate max-w-[140px] sm:max-w-none">{product.name}</span>
       </div>
 
       {/* Main layout */}
-      <div className="flex gap-0 items-start">
+      <div className="flex flex-col lg:flex-row gap-0 items-start w-full min-h-[calc(100vh-52px)]">
         {/* Gallery */}
-        <div className="w-[55%]">
+        <div className="w-full lg:w-[55%]">
           <ProductGallery
             images={variant.images}
             productName={product.name}
@@ -232,19 +244,19 @@ const ProductDetails = () => {
         </div>
 
         {/* Detail panel */}
-        <div className="w-[45%] pl-8 pr-6 py-6 sticky top-[52px] border-l border-gray-100">
+        <div className="w-full lg:w-[45%] px-4 sm:px-6 py-6 lg:pl-8 lg:pr-6 lg:sticky lg:top-[52px] border-t lg:border-t-0 lg:border-l border-gray-100 bg-white">
           {/* Brand */}
           <p className="text-[11px] tracking-[0.12em] uppercase text-gray-400 mb-1">
             {product.brand}
           </p>
 
           {/* Name */}
-          <h1 className="font-serif text-[1.6rem] font-normal leading-snug tracking-tight text-gray-900 mb-1.5">
+          <h1 className="font-serif text-xl sm:text-2xl lg:text-[1.6rem] font-normal leading-snug tracking-tight text-gray-900 mb-1.5 break-words">
             {product.name}
           </h1>
 
           {/* Rating */}
-          <div className="flex items-center gap-2 mb-3">
+          <div className="flex items-center gap-2 mb-3 flex-wrap">
             <div className="flex items-center gap-0.5">
               {[1, 2, 3, 4, 5].map((s) => (
                 <StarIcon
@@ -282,7 +294,7 @@ const ProductDetails = () => {
           <div className="border border-gray-200 rounded text-[12px] divide-y divide-gray-100 mb-5">
             <div className="flex items-start gap-2 p-3 text-gray-600">
               <DeliveryIcon />
-              <span>
+              <span className="leading-normal">
                 Get it by <strong className="text-gray-800">Fri, 4 Jul</strong>
                 {" · "}Free delivery on orders above ₹1,000
                 {" · "}
@@ -294,14 +306,14 @@ const ProductDetails = () => {
                 </a>
               </span>
             </div>
-            <div className="flex items-center gap-2 p-3">
+            <div className="flex items-center gap-2 p-2.5 sm:p-3">
               <PinIcon />
               <input
                 type="text"
                 value={pincode}
                 placeholder="Enter pincode for exact delivery date"
                 maxLength={6}
-                className="flex-1 bg-transparent outline-none placeholder:text-gray-400 text-[12px] text-gray-700"
+                className="flex-1 bg-transparent outline-none placeholder:text-gray-400 text-[12px] text-gray-700 min-w-0"
                 onChange={(e) =>
                   setPincode(e.target.value.replace(/\D/g, "").slice(0, 6))
                 }
@@ -323,7 +335,7 @@ const ProductDetails = () => {
               </span>
             </p>
             <div className="flex flex-wrap gap-2">
-              {product.variants.map((v, i) => (
+              {product.variants.map((v: any, i: number) => (
                 <button
                   key={i}
                   onClick={() => handleColorSelect(i)}
@@ -358,7 +370,7 @@ const ProductDetails = () => {
                 </a>
               </div>
               <div className="flex flex-wrap gap-1.5">
-                {variant.sizes.map((s, i) => {
+                {variant.sizes.map((s: any, i: number) => {
                   const oos = s.stock === 0;
                   return (
                     <button
@@ -383,13 +395,13 @@ const ProductDetails = () => {
           {/* Stock indicator */}
           <div className="text-[12px] mb-4">
             {isOutOfStock ? (
-              <span className="text-red-500">Out of stock</span>
+              <span className="text-red-500 font-medium">Out of stock</span>
             ) : isLowStock ? (
-              <span className="text-orange-500">
+              <span className="text-orange-500 font-medium">
                 Only {selectedSize.stock} left in stock
               </span>
             ) : (
-              <span className="text-green-700">In stock</span>
+              <span className="text-green-700 font-medium">In stock</span>
             )}
           </div>
 
@@ -432,7 +444,7 @@ const ProductDetails = () => {
                 fill="none"
                 strokeWidth="1.8"
                 stroke="currentColor"
-                className="w-4 h-4"
+                className="w-4 h-4 shrink-0"
               >
                 <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
                 <line x1="3" y1="6" x2="21" y2="6" />
@@ -447,7 +459,7 @@ const ProductDetails = () => {
             <button
               onClick={() => setWishlist((w) => !w)}
               aria-label="Wishlist"
-              className={`w-11 h-11 rounded border flex items-center justify-center transition-all ${wishlist
+              className={`w-11 h-11 rounded border flex items-center justify-center transition-all shrink-0 ${wishlist
                   ? "border-red-300 bg-red-50 text-red-500"
                   : "border-gray-200 text-gray-400 hover:border-gray-500"
                 }`}
@@ -465,7 +477,7 @@ const ProductDetails = () => {
           </div>
 
           {/* Trust row */}
-          <div className="flex flex-wrap gap-x-4 gap-y-1.5 text-[11px] text-gray-500 mb-4 pb-4 border-b border-gray-100">
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-[11px] text-gray-500 mb-4 pb-4 border-b border-gray-100">
             <span className="flex items-center gap-1.5">
               <ShieldIcon /> 100% Authentic
             </span>
@@ -545,14 +557,14 @@ const ProductDetails = () => {
 
       {/* You May Also Like */}
       {alsoLike.length > 0 && (
-        <section className="px-8 py-10 border-t border-gray-100">
+        <section className="px-4 sm:px-6 lg:px-8 py-8 lg:py-10 border-t border-gray-100">
           <p className="text-[11px] font-medium tracking-[0.12em] uppercase text-gray-400 mb-5">
             You May Also Like
           </p>
-          <div className="grid grid-cols-6 gap-2 w-full">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 w-full">
             {alsoLike.map((p) => {
               return (
-                <a key={p.id}  className="group block">
+                <a key={p.id} href={`/product/${p.id}`} className="group block">
                   <ProductCard
                     key={p.id}
                     name={p.name}

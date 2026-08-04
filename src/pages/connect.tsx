@@ -50,7 +50,7 @@ export const Contact: FC = () => {
         reset();
       } else {
         const err = await res.json().catch(() => ({}));
-        // showAlert('error', err.error || 'Failed to send message. Please try again.');
+        console.error("API error response:", err);
       }
     } catch (error) {
       console.error("Message sending failed:", error);

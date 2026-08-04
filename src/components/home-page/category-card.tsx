@@ -1,6 +1,23 @@
 import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import fashionbigvideo from "../../assets/fashion-big-video.mp4"
+import fashioSmallVideo from "../../assets/fashion-small-video.mp4"
+
+import menbigvideo from "../../assets/menbigvideo.mp4"
+import menSmallVideo from "../../assets/menSmallVideo.mp4"
+
+import womenbigvideo from "../../assets/womenbigvideo.mp4"
+import womenSmallVideo from "../../assets/womenSmallVideo.mp4"
+
+import beautybigvideo from "../../assets/beautybigvideo.mp4"
+import beautySmallVideo from "../../assets/beautySmallVideo.mp4"
+
+
 import humanliviingvideo from "../../assets/human-liviing-video.mp4"
+import humanliviingSmallVideo from "../../assets/humanliviingSmallVideo.mp4"
+
+
+
 
 const CATEGORIES = [
     {
@@ -11,10 +28,10 @@ const CATEGORIES = [
             "https://plus.unsplash.com/premium_photo-1664202526047-405824c633e7?w=800&auto=format&fit=crop&q=60",
         desktopSpan: "col-span-2 row-span-2",
         smallImage: "https://plus.unsplash.com/premium_photo-1727943458940-ba9653405f9a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDMxfHx3b21lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D",
-        video: "https://www.pexels.com/download/video/4265082/",
+        video: fashionbigvideo,
         // smallVideo: "https://www.pexels.com/download/video/7316982/"
         // smallVideo: "https://www.pexels.com/download/video/8061194/"
-        smallVideo: "https://www.pexels.com/download/video/10622415/"
+        smallVideo: fashioSmallVideo
     }, {
         label: "Shop Men",
         sub: "Men's Clothing",
@@ -23,8 +40,8 @@ const CATEGORIES = [
             "https://images.unsplash.com/photo-1660983414429-66757ac8d03d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fG1lbnMlMjBmYXNoaW9uJTIwaW4lMjB3aGl0ZSUyMGJnfGVufDB8fDB8fHww",
         desktopSpan: "col-span-1 row-span-1",
         smallImage: "https://images.unsplash.com/photo-1633405044931-d59ce835743f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fG1lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D",
-        video: "https://www.pexels.com/download/video/8296707/",
-        smallVideo: "https://www.pexels.com/download/video/8296235/"
+        video: menbigvideo,
+        smallVideo: menSmallVideo
     },
     {
         label: "Shop Women",
@@ -34,8 +51,8 @@ const CATEGORIES = [
             "https://images.unsplash.com/photo-1595476147510-1a9b33600fc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHdvbWVucyUyMGNsb3RoaW5nfGVufDB8fDB8fHww",
         desktopSpan: "col-span-1 row-span-1",
         smallImage: "https://images.unsplash.com/photo-1604436607823-d721dfe2df46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D",
-        video: "https://www.pexels.com/download/video/6459907/",
-        smallVideo: "https://www.pexels.com/download/video/10212504/"
+        video: womenbigvideo,
+        smallVideo: womenSmallVideo
 
     },
 
@@ -47,9 +64,9 @@ const CATEGORIES = [
             "https://plus.unsplash.com/premium_photo-1661754333744-38817d55d79a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODl8fG1ha2V1cHxlbnwwfHwwfHx8MA%3D%3D",
         desktopSpan: "col-span-1 row-span-1",
         smallImage: "https://images.unsplash.com/photo-1600523063811-4e78e3e088b8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHxtYWtlJTIwdXB8ZW58MHx8MHx8fDA%3D",
-        video: "https://www.pexels.com/download/video/7290155/",
+        video: beautybigvideo,
         // video :"https://www.pexels.com/download/video/4960197/",
-        smallVideo: "https://www.pexels.com/download/video/12322633/"
+        smallVideo: beautySmallVideo
     },
     {
         label: "Home & Living",
@@ -60,7 +77,7 @@ const CATEGORIES = [
         desktopSpan: "col-span-1 row-span-1",
         smallImage: "https://plus.unsplash.com/premium_photo-1676968002767-1f6a09891350?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fEhvbWUlMjBMaXZpbmd8ZW58MHx8MHx8fDA%3D",
         video: humanliviingvideo,
-        smallVideo: "https://www.pexels.com/download/video/36516356/"
+        smallVideo: humanliviingSmallVideo
     },
 
 ];
@@ -111,7 +128,7 @@ const CategoryCards = () => {
     };
 
     return (
-        <section className="px-1 sm:px-6 py-1 sm:py-2 ">
+        <section className="px-1 sm:px-2 sm:pl-6 py-1 sm:py-2 ">
 
             {/* ── Mobile: swipeable full-screen slider ── */}
             <div className="sm:hidden">
@@ -235,26 +252,25 @@ function DesktopCard({ cat, onNavigate }: { cat: CatItem; onNavigate: () => void
             className={`${cat.desktopSpan} relative overflow-hidden cursor-pointer group rounded-sm`}
         >
             {/* Static image — shown by default */}
-            {/* <img
+            <img
                 src={cat.image}
                 alt={cat.label}
-                className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 group-hover:opacity-0"
-            /> */}
+                className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500"
+            />
 
             {/* Video — shown on hover */}
-            {cat.video && (
-                <video
-                    ref={videoRef}
-                    src={cat.video}
-                    muted
-                    loop
-                    playsInline
-                    preload="auto"
-                    autoPlay
-                    onCanPlay={() => videoRef.current?.play().catch(() => { })}
-                    className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500"
-                />
-            )}
+            <video
+                ref={videoRef}
+                src={cat.video}
+                muted
+                loop
+                playsInline
+                preload="auto"
+                autoPlay
+                onCanPlay={() => videoRef.current?.play().catch(() => { })}
+                className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500"
+            />
+
 
             <div className="absolute inset-0" style={overlay} />
             <div className="absolute bottom-0 left-0 p-4">

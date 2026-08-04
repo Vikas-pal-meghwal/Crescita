@@ -2,8 +2,9 @@ import { useState, useMemo, useEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { Search, ArrowUpDown, SlidersHorizontal } from "lucide-react";
 import ProductCard from "../components/product/productcard";
+import { ProductCardSkeleton } from "../components/product-details/product-skeleton";
 import { FilterPanel, type FilterState, DEFAULT_FILTERS } from "../components/filters";
-import products from "../data/products.json";
+import { fetchProducts } from "../services/api";
 
 type SortOption = "newest" | "price-asc" | "price-desc" | "rating";
 
@@ -23,6 +24,23 @@ const AllProducts = () => {
   const [sortOpen, setSortOpen] = useState(false);
   const [filterOpen, setFilterOpen] = useState(false);
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
+  const [products, setProducts] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  // Fetch products from API
+  useEffect(() => {
+    const loadProducts = async () => {
+      try {
+        const data = await fetchProducts();
+        setProducts(data);
+      } catch (error) {
+        console.error('Failed to load products:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadProducts();
+  }, []);
 
   // Read URL params on mount / when URL changes
   useEffect(() => {
@@ -59,6 +77,7 @@ const AllProducts = () => {
   };
 
   const filtered = useMemo(() => {
+    if (loading) return [];
     const q = search.trim().toLowerCase();
 
     let list = products.filter((p) => {
@@ -110,7 +129,7 @@ const AllProducts = () => {
     }
 
     return list;
-  }, [search, sort, filters]);
+  }, [search, sort, filters, products]);
 
   return (
     <div className="pb-4 sm:pt-0 px-0 sm:px-0">
@@ -299,8 +318,14 @@ const AllProducts = () => {
           </button>
         </div>
 
-        {/* ── Grid / Empty state ──────────────────────────────────── */}
-        {filtered.length === 0 ? (
+        {/* ── Grid / Loading / Empty state ──────────────────────────────────── */}
+        {loading ? (
+          <div className="grid grid-cols-2 sm:grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-x-3 gap-y-6 sm:gap-y-8 py-4 sm:py-8">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <ProductCardSkeleton key={i} />
+            ))}
+          </div>
+        ) : filtered.length === 0 ? (
           <div className="flex flex-col items-center justify-center gap-6 py-24 px-4 border border-stone-200 mx-4 my-8 rounded">
             <p className="text-[13px] text-stone-500 text-center leading-relaxed max-w-xs">
               We couldn't find any products matching your active filters. Try
@@ -339,7 +364,7 @@ const AllProducts = () => {
                   price={firstPrice}
                   currency="₹"
                   images={firstVariant.images}
-                  onDoubleClick={() => navigate(`/product/${product.id}`)}
+                  onClick={() => navigate(`/product/${product.id}`)}
                 />
               );
             })}

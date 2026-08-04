@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Search, X, Heart, User, ShoppingBasket } from "lucide-react";
 import products from "../../data/products.json";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/2.png"
 
 // Maps nav label → query params for /products
 const NAV_ITEMS: { label: string; params: Record<string, string> }[] = [
@@ -66,19 +66,19 @@ const Header = () => {
 
   return (
     <>
-      <nav className="bg-white border-b border-gray-200 flex items-center justify-between px-4 md:px-8 h-[52px]">
+      <nav className="bg-white border-b border-gray-200 flex items-center justify-between md:px-2 h-[52px]">
         {/* Logo */}
         <a href="/" className="shrink-0" aria-label="Home">
-          <img src={logo} alt="Logo" className="h-8 w-auto object-contain" />
+          <img src={logo} alt="Logo" className="h-6 sm:h-8 w-auto object-contain" />
         </a>
 
         {/* Nav links */}
-        <ul className="hidden sm:flex gap-0 list-none">
+        <ul className="hidden md:flex gap-0 list-none">
           {NAV_ITEMS.map(({ label, params }) => (
             <li key={label}>
               <button
                 onClick={() => handleNav(params)}
-                className="text-xs font-normal tracking-[0.03em] text-gray-700 px-3.5 h-[52px] inline-flex items-center hover:text-black transition-colors"
+                className="text-xs font-normal tracking-[0.03em] text-gray-700 px-2.5 lg:px-3.5 h-[52px] inline-flex items-center hover:text-black transition-colors"
               >
                 {label}
               </button>
@@ -87,20 +87,21 @@ const Header = () => {
         </ul>
 
         {/* Right icons */}
-        <div className="flex items-center gap-4 shrink-0">
+        <div className="flex items-center gap-2.5 sm:gap-4 shrink-0">
           <button
             onClick={() => setSearchOpen(true)}
-            className="text-xs tracking-[0.03em] text-gray-700 hover:text-black transition-colors flex items-center gap-1"
+            aria-label="Search"
+            className="text-xs tracking-[0.03em] text-gray-700 hover:text-black transition-colors flex items-center gap-1 p-1"
           >
-            <Search size={15} />
+            <Search size={16} />
           </button>
-          <a href="/wishlist" className="flex items-center" aria-label="Wishlist">
+          <a href="/wishlist" className="flex items-center p-1" aria-label="Wishlist">
             <Heart className="w-[18px] h-[18px] stroke-gray-700 hover:stroke-black transition-colors" />
           </a>
-          <a href="/wishlist" className="flex items-center" aria-label="Wishlist">
+          <a href="/wishlist" className="flex items-center p-1" aria-label="Cart">
             <ShoppingBasket className="w-[18px] h-[18px] stroke-gray-700 hover:stroke-black transition-colors" />
           </a>
-          <a href="/wishlist" className="flex items-center" aria-label="Wishlist">
+          <a href="/wishlist" className="flex items-center p-1" aria-label="Account">
             <User className="w-[18px] h-[18px] stroke-gray-700 hover:stroke-black transition-colors" />
           </a>
         </div>

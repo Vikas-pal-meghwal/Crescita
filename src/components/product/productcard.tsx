@@ -7,14 +7,14 @@ interface ProductCardProps {
   price?: number;
   currency?: string;
   images?: string[];
-  onDoubleClick?: () => void;
+  onClick?: () => void;
 }
 export default function ProductCard({
   name = "",
   price = 0,
   currency = "₹",
   images = [],
-  onDoubleClick,
+  onClick,
 }: ProductCardProps) {
   const [index, setIndex] = useState<number>(0);
   const [hovered, setHovered] = useState<boolean>(false);
@@ -37,17 +37,17 @@ export default function ProductCard({
 
   return (
     <div
-      className="w-full select-none"
+      className="w-full select-none cursor-pointer"
+      onClick={onClick}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      onDoubleClick={onDoubleClick}
     >
       {/* Image */}
       <div className="relative aspect-[3/4] overflow-hidden bg-stone-100 rounded cursor-pointer">
         <img
           src={images[index]}
           alt={name}
-          className="w-full h-full object-cover transition-transform duration-500 ease-out text-[14px] text-gray-400 text-center"
+          className="w-full h-full object-cover transition-transform duration-500 ease-out  text-[14px] text-gray-400 text-center"
           style={{ transform: hovered ? "scale(1.04)" : "scale(1)" }}
         />
 
@@ -55,8 +55,7 @@ export default function ProductCard({
         <button
           onClick={toggleLike}
           aria-label="Add to wishlist"
-          className="absolute top-1.5 right-1.5 w-7 h-7 rounded-sm bg-white/85 flex items-center justify-center transition-opacity"
-          style={{ opacity: hovered || liked ? 1 : 0 }}
+          className={`absolute top-1.5 right-1.5 w-7 h-7 rounded-sm bg-white/85 flex items-center justify-center transition-opacity ${hovered ? "opacity-100" : "opacity-0"}`}
         >
           <Heart
             size={14}

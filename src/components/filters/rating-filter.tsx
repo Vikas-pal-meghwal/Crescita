@@ -1,5 +1,4 @@
 const RATINGS = [0, 3, 4, 4.5] as const;
-type RatingValue = (typeof RATINGS)[number];
 
 interface RatingFilterProps {
   value: number;

@@ -6,11 +6,11 @@ interface SizeGuideProps {
 }
 
 const CLOTHING_SIZES = [
-  { size: "XS",  chest: "32–33", waist: "26–27", hips: "35–36", inseam: "30" },
-  { size: "S",   chest: "34–35", waist: "28–29", hips: "37–38", inseam: "30" },
-  { size: "M",   chest: "36–37", waist: "30–31", hips: "39–40", inseam: "31" },
-  { size: "L",   chest: "38–40", waist: "32–34", hips: "41–43", inseam: "31" },
-  { size: "XL",  chest: "41–43", waist: "35–37", hips: "44–46", inseam: "32" },
+  { size: "XS", chest: "32–33", waist: "26–27", hips: "35–36", inseam: "30" },
+  { size: "S", chest: "34–35", waist: "28–29", hips: "37–38", inseam: "30" },
+  { size: "M", chest: "36–37", waist: "30–31", hips: "39–40", inseam: "31" },
+  { size: "L", chest: "38–40", waist: "32–34", hips: "41–43", inseam: "31" },
+  { size: "XL", chest: "41–43", waist: "35–37", hips: "44–46", inseam: "32" },
   { size: "XXL", chest: "44–46", waist: "38–40", hips: "47–49", inseam: "32" },
 ];
 
@@ -52,19 +52,19 @@ export default function SizeGuide({ open, onClose }: SizeGuideProps) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center sm:px-4 mt-8 sm:mt-0"
+      className="fixed inset-0 z-50 flex items-center justify-center sm:px-4 mt-0 sm:mt-0"
       style={{ background: "rgba(0,0,0,0.4)" }}
       onClick={onClose}
     >
       {/* Modal panel — fixed height, flex column so header is sticky */}
       <div
-        className="relative bg-white w-full max-w-lg rounded flex flex-col mt-8 h-full sm:max-h-[85vh]"
-       
+        className="relative bg-white w-full max-w-lg sm:rounded flex flex-col sm:mt-8 h-full sm:max-h-[85vh]"
+
         onClick={(e) => e.stopPropagation()}
       >
         {/* ── Sticky header ── */}
-        <div className="flex items-center bg-gray-50 rounded-t justify-between px-6 py-4 border-b border-gray-200 shrink-0">
-          <h2 className="text-[13px] font-medium tracking-widest uppercase text-gray-800">
+        <div className="flex items-center bg-gray-50 rounded-t justify-between px-4  sm:px-6 py-2 sm:py-2 border-b border-gray-200 shrink-0">
+          <h2 className="text-lg sm:text-sm  sm:tracking-widest sm:uppercase text-gray-900">
             Size Guide
           </h2>
           <button
