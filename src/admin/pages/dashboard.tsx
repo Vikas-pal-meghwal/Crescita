@@ -155,7 +155,7 @@ const Dashboard = () => {
     return (
         <MainLayout>
             {/* Scrollable page content */}
-            <div className="flex-1 overflow-y-auto">
+            <div className="flex-1 ">
                 <div className="px-4 sm:px-4 py-6 max-w-full mx-auto space-y-6">
 
                     {/* ── Stat cards ── */}

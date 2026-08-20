@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import { BLOG_POSTS } from "../../data/blog-data";
+import { loadPosts } from "../../data/blog-store";
 
-const POSTS = BLOG_POSTS.map((p) => ({
+const POSTS = loadPosts().slice(0, 3).map((p) => ({
   num: p.num,
   tag: p.tag,
   title: p.title,

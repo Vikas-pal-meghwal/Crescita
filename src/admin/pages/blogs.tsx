@@ -137,7 +137,7 @@ const AdminBlogs = () => {
 
   return (
     <MainLayout>
-      <div className="flex-1 overflow-y-auto">
+      <div className="flex-1 ">   
         <div className="px-4 sm:px-6 py-6 max-w-full mx-auto space-y-5">
 
           {/* ── Page Header ── */}
