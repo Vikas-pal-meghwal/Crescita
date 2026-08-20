@@ -6,6 +6,10 @@ import AllProducts from "./pages/all-products";
 import Home from "./pages/Home";
 import Contact from "./pages/connect";
 import Wishlist from "./pages/wishlist";
+import Blog from "./pages/blog";
+import BlogPost from "./pages/blog-post";
+import AdminBlogs from "./admin/pages/blogs";
+import AddBlog from "./admin/pages/add-blog";
 import ScrollToTop from "./components/layout/scroll-to-top";
 import AdminLogin from "./pages/admin/admin-login";
 import AdminDashboard from "./pages/admin/admin-dashboard";
@@ -42,6 +46,8 @@ const App = () => {
         <Route path="/products" element={<AllProducts />} />
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/wishlist" element={<Wishlist />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
       </Route>
 
       {/* ── Admin routes (no header/footer) ── */}
@@ -50,6 +56,9 @@ const App = () => {
       <Route path="/admin/products" element={<AdminRoute><AdminProducts /></AdminRoute>} />
       <Route path="/admin/products/add" element={<AdminRoute><AddProduct /></AdminRoute>} />
       <Route path="/admin/analytics" element={<AdminRoute><Analytics /></AdminRoute>} />
+      <Route path="/admin/blogs" element={<AdminRoute><AdminBlogs /></AdminRoute>} />
+      <Route path="/admin/blogs/add" element={<AdminRoute><AddBlog /></AdminRoute>} />
+      <Route path="/admin/blogs/edit/:slug" element={<AdminRoute><AddBlog /></AdminRoute>} />
          <Route
         path="/admin/dashboard1"
         element={

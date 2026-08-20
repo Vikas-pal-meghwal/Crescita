@@ -11,11 +11,13 @@ import {
     Menu,
     ChevronsLeft,
     BarChart2,
+    BookOpen,
 } from 'lucide-react'
 
 const navItems = [
     { label: 'Dashboard', to: '/admin/dashboard', icon: Home },
     { label: 'Products', to: '/admin/products', icon: LayoutTemplate },
+    { label: 'Blogs', to: '/admin/blogs', icon: BookOpen },
     { label: 'Analytics', to: '/admin/analytics', icon: BarChart2 },
 ]
 

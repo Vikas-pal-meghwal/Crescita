@@ -1,40 +1,15 @@
 import { useNavigate } from "react-router-dom";
+import { BLOG_POSTS } from "../../data/blog-data";
 
-const POSTS = [
-  {
-    num: "01",
-    tag: "Style Guide",
-    title: "10 Wardrobe Essentials You Need This Season",
-    excerpt:
-      "Build a capsule wardrobe that works year-round with these timeless, versatile pieces.",
-    readTime: "4 min read",
-    image:
-      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&auto=format&fit=crop&q=80&crop=center",
-    link: "/products?category=Fashion",
-  },
-  {
-    num: "02",
-    tag: "Beauty Tips",
-    title: "Your Morning Skincare Routine, Simplified",
-    excerpt:
-      "Less is more — the five products that dermatologists actually recommend every day.",
-    readTime: "3 min read",
-    image:
-      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=800&auto=format&fit=crop&q=80&crop=center",
-    link: "/products?category=Beauty",
-  },
-  {
-    num: "03",
-    tag: "Home Decor",
-    title: "How to Style Your Living Room Like a Pro",
-    excerpt:
-      "Small changes, big impact — interior tricks that transform any space without a renovation.",
-    readTime: "5 min read",
-    image:
-      "https://images.unsplash.com/photo-1729811985748-9e248b1517d8?q=80&w=1268&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    link: "/products?category=Home+%26+Living",
-  },
-];
+const POSTS = BLOG_POSTS.map((p) => ({
+  num: p.num,
+  tag: p.tag,
+  title: p.title,
+  excerpt: p.excerpt,
+  readTime: p.readTime,
+  image: p.image,
+  link: `/blog/${p.slug}`,
+}));
 
 const Journal = () => {
   const navigate = useNavigate();
@@ -56,6 +31,7 @@ const Journal = () => {
           </h2>
         </div>
         <button
+          onClick={() => navigate("/blog")}
           className="hidden sm:inline-flex items-center gap-2 text-[10px] tracking-[0.18em] uppercase text-gray-400 hover:text-gray-900 transition-colors pb-1"
         >
           All stories
