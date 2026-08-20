@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <footer className="border-t border-gray-100 py-2  sm:py-6 px-6 flex justify-between  item-center text-xs text-gray-400 flex-wrap gap-4">
-      <div>© {new Date().getFullYear()} MARISREE ·All rights reserved</div>
+      <div>© {new Date().getFullYear()} Crescita ·All rights reserved</div>
       <div className="flex gap-6 hidden sm:block">
         <a href="/terms" className="hover:text-gray-600">
           Terms and Policies

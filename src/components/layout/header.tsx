@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Search, X, Heart, User, ShoppingBasket } from "lucide-react";
 import products from "../../data/products.json";
-import logo from "../../assets/2.png"
+import logo from "../../assets/crescita-logo.png"
 
 // Maps nav label → query params for /products
 const NAV_ITEMS: { label: string; params: Record<string, string> }[] = [
@@ -69,7 +69,7 @@ const Header = () => {
       <nav className="bg-white border-b border-gray-200 flex items-center justify-between md:px-2 h-[52px]">
         {/* Logo */}
         <a href="/" className="shrink-0" aria-label="Home">
-          <img src={logo} alt="Logo" className="h-6 sm:h-8 w-auto object-contain" />
+          <img src={logo} alt="Logo" className="h-6 sm:h-10 w-auto object-contain" />
         </a>
 
         {/* Nav links */}

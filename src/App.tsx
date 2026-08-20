@@ -7,11 +7,19 @@ import Home from "./pages/Home";
 import Contact from "./pages/connect";
 import Wishlist from "./pages/wishlist";
 import ScrollToTop from "./components/layout/scroll-to-top";
+import AdminLogin from "./pages/admin/admin-login";
+import AdminDashboard from "./pages/admin/admin-dashboard";
+import AdminRoute from "./components/admin/admin-route";
+import Dashboard from "./admin/pages/dashboard";
+import AdminProducts from "./admin/pages/products";
+import Analytics from "./admin/pages/analytics";
+import AddProduct from "./admin/pages/add-product";
 
 const App = () => {
   return (
     <Routes>
 
+      {/* ── Public store routes ── */}
       <Route
         element={
           <>
@@ -33,9 +41,23 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<AllProducts />} />
         <Route path="/product/:id" element={<ProductDetails />} />
-
         <Route path="/wishlist" element={<Wishlist />} />
       </Route>
+
+      {/* ── Admin routes (no header/footer) ── */}
+      <Route path="/admin" element={<AdminLogin />} />
+      <Route path="/admin/dashboard" element={<AdminRoute><Dashboard /></AdminRoute>} />
+      <Route path="/admin/products" element={<AdminRoute><AdminProducts /></AdminRoute>} />
+      <Route path="/admin/products/add" element={<AdminRoute><AddProduct /></AdminRoute>} />
+      <Route path="/admin/analytics" element={<AdminRoute><Analytics /></AdminRoute>} />
+         <Route
+        path="/admin/dashboard1"
+        element={
+          <AdminRoute>
+            <AdminDashboard />
+          </AdminRoute>
+        }
+      />
     </Routes>
   );
 };

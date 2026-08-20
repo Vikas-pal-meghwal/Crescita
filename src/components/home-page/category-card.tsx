@@ -21,7 +21,7 @@ import humanliviingSmallVideo from "../../assets/humanliviingSmallVideo.mp4"
 
 const CATEGORIES = [
     {
-        label: "Fashion",
+        label: "Fashion", 
         sub: "Clothing & Accessories",
         params: "category=Fashion",
         image:

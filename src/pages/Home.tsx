@@ -1,17 +1,23 @@
 import FeatureList from "../components/home-page/feature";
 import CategoryCards from "../components/home-page/category-card";
+import ShopByDepartment from "../components/home-page/shop-by-department";
+import Journal from "../components/home-page/journal";
 
 const Home = () => {
   return (
     <div>
+      {/* Hero — category bento grid */}
       <CategoryCards />
 
-      <div className="space-y-8 sm:space-y-20 mt-4 sm:mt-12 ">
+      {/* Product rows */}
+      <div className="space-y-8 sm:space-y-20 mt-4 sm:mt-12">
         <FeatureList
           title="New Arrivals"
           subtitle="Fresh picks just landed"
           limit={20}
         />
+
+        <ShopByDepartment />
 
         <FeatureList
           title="Fashion Products"
@@ -19,7 +25,12 @@ const Home = () => {
           category="Fashion"
           limit={20}
         />
+      </div>
 
+
+
+      {/* More products */}
+      <div className="space-y-8 sm:space-y-20 mt-4 sm:mt-12">
         <FeatureList
           title="Beauty Essentials"
           subtitle="Skincare, makeup & more"
@@ -34,6 +45,9 @@ const Home = () => {
           limit={20}
         />
       </div>
+
+      {/* Journal / Blog */}
+      <Journal />
     </div>
   );
 };
