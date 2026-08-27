@@ -151,7 +151,7 @@ const Card = ({ children, className = '' }: { children: React.ReactNode; classNa
 
 const CardHeader = ({ title, sub }: { title: string; sub?: string }) => (
   <div className="px-5 py-4 border-b border-gray-50">
-    <h3 className="text-[13px] font-semibold text-gray-800">{title}</h3>
+    <h3 className="text-[18px] font-semibold text-gray-800">{title}</h3>
     {sub && <p className="text-[11px] text-gray-400 mt-0.5">{sub}</p>}
   </div>
 )

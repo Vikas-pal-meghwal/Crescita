@@ -46,7 +46,22 @@ const ShopByDepartment = () => {
   return (
     <section className="px-3 sm:pl-6 py-8">
 
-
+      {/* ── Section header ── */}
+      <div className="text-center mb-8 sm:mb-12">
+        <p className="text-[9px] tracking-[0.28em] uppercase text-gray-400 mb-3">
+          Crescita Picks
+        </p>
+        <h2
+          className="text-[1.8rem] sm:text-[2.6rem] font-normal text-gray-900 leading-tight"
+          style={{ fontFamily: "'Playfair Display', serif" }}
+        >
+          Most Recommended Collections
+        </h2>
+        <p className="mt-3 text-[13px] text-gray-400 max-w-[340px] mx-auto leading-relaxed">
+          Expertly curated pieces crafted for style and everyday wear — timeless
+          designs that elevate every look.
+        </p>
+      </div>
 
       {/* ── Desktop Bento Grid ── */}
       <div className="hidden sm:grid grid-cols-2 gap-1.5" style={{ height: "720px" }}>
@@ -128,6 +143,7 @@ function DeptCard({
       className="relative overflow-hidden cursor-pointer group rounded-sm w-full h-full"
       style={isMobile ? { height: "260px" } : undefined}
     >
+
       {/* Image */}
       <img
         src={dept.image}

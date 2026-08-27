@@ -12,13 +12,15 @@ import {
     ChevronsLeft,
     BarChart2,
     BookOpen,
+    Tag,
 } from 'lucide-react'
 
 const navItems = [
+    { label: 'Analytics', to: '/admin/analytics', icon: BarChart2 },
     { label: 'Dashboard', to: '/admin/dashboard', icon: Home },
     { label: 'Products', to: '/admin/products', icon: LayoutTemplate },
     { label: 'Blogs', to: '/admin/blogs', icon: BookOpen },
-    { label: 'Analytics', to: '/admin/analytics', icon: BarChart2 },
+    { label: 'Sale', to: '/admin/sale', icon: Tag, highlight: true },
 ]
 
 
@@ -103,7 +105,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     className={`flex-1 space-y-1 overflow-y-auto admin-nav-scroll transition-all duration-300 ease-in-out ${collapsed ? 'md:px-1 px-3 py-3 md:py-3' : 'md:px-2 px-3 py-3 md:py-5'
                         }`}
                 >
-                    {navItems.map(({ label, to, icon: Icon }) => (
+                    {navItems.map(({ label, to, icon: Icon, highlight }) => (
                         <NavLink
                             key={to}
                             to={to}
@@ -114,19 +116,26 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                                 }
                             }}
                             className={({ isActive }) =>
-                                `relative flex items-center  text-[13.5px] transition-all duration-150 group
+                                `relative flex items-center text-[13.5px] transition-all duration-150 group
                                 ${collapsed ? 'md:justify-center md:px-0 md:py-2.5' : 'px-3 py-2.5'}
                                 ${isActive
-                                    ? 'bg-gray-200/60 text-black font-semibold'
-                                    : 'text-gray-600 font-medium hover:bg-gray-100 hover:text-black'
+                                    ? highlight
+                                        ? 'bg-red-50 text-red-600 font-semibold'
+                                        : 'bg-gray-200/60 text-black font-semibold'
+                                    : highlight
+                                        ? 'text-red-500 font-medium hover:bg-red-50 hover:text-red-600'
+                                        : 'text-gray-600 font-medium hover:bg-gray-100 hover:text-black'
                                 }`
                             }
                         >
                             {({ isActive }) => (
                                 <>
                                     <Icon
-                                        className={`h-[18px] w-[18px] shrink-0 transition-colors duration-150 ${isActive ? 'text-black' : 'text-gray-400 group-hover:text-black'
-                                            }`}
+                                        className={`h-[18px] w-[18px] shrink-0 transition-colors duration-150 ${
+                                            highlight
+                                                ? isActive ? 'text-red-600' : 'text-red-400 group-hover:text-red-600'
+                                                : isActive ? 'text-black' : 'text-gray-400 group-hover:text-black'
+                                        }`}
                                     />
                                     <span
                                         className={`transition-all duration-300 ease-in-out whitespace-nowrap overflow-hidden ${collapsed ? 'md:max-w-0 md:opacity-0 md:ml-0' : 'max-w-[140px] opacity-100 ml-3'

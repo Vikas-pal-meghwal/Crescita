@@ -17,7 +17,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     scrollbar-width: thin;
-    scrollbar-color: #cbd5e1 transparent;
+    scrollbar-color: #808080 #e6e6e6;
     font-family: var(--font-sans);
     background-color: #ffffff;
     color: #0f172a;
@@ -41,8 +41,8 @@
   /* Custom Webkit scrollbar styling */
   html::-webkit-scrollbar,
   body::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
   }
 
   html::-webkit-scrollbar-track,
@@ -100,13 +100,13 @@
    Class: .admin-scrollbar
 ──────────────────────────────────────────────────────────────────────── */
 .admin-scrollbar {
-  scrollbar-width: thin;
-  scrollbar-color: #e2e8f0 transparent;
+  scrollbar-width: 4px;
+  scrollbar-color: #e6e6e6 transparent;
 }
 
 .admin-scrollbar::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 6px;
+  height: 6px;
 }
 
 .admin-scrollbar::-webkit-scrollbar-track {

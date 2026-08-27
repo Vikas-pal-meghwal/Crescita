@@ -2,6 +2,7 @@ import FeatureList from "../components/home-page/feature";
 import CategoryCards from "../components/home-page/category-card";
 import ShopByDepartment from "../components/home-page/shop-by-department";
 import Journal from "../components/home-page/journal";
+import RecommendedCollections from "../components/home-page/recommended-collections";
 
 const Home = () => {
   return (
@@ -48,6 +49,9 @@ const Home = () => {
 
       {/* Journal / Blog */}
       <Journal />
+
+      {/* Recommended Collections */}
+      <RecommendedCollections />
     </div>
   );
 };

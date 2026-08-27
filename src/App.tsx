@@ -10,6 +10,7 @@ import Blog from "./pages/blog";
 import BlogPost from "./pages/blog-post";
 import AdminBlogs from "./admin/pages/blogs";
 import AddBlog from "./admin/pages/add-blog";
+import AdminSale from "./admin/pages/add-sale";
 import ScrollToTop from "./components/layout/scroll-to-top";
 import AdminLogin from "./pages/admin/admin-login";
 import AdminDashboard from "./pages/admin/admin-dashboard";
@@ -18,6 +19,9 @@ import Dashboard from "./admin/pages/dashboard";
 import AdminProducts from "./admin/pages/products";
 import Analytics from "./admin/pages/analytics";
 import AddProduct from "./admin/pages/add-product";
+
+import FAQ from "./pages/faq";
+import About from "./pages/about";
 
 const App = () => {
   return (
@@ -43,11 +47,13 @@ const App = () => {
       >
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/faq" element={<FAQ />} />
         <Route path="/products" element={<AllProducts />} />
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
+        <Route path="/about" element={<About />} />
       </Route>
 
       {/* ── Admin routes (no header/footer) ── */}
@@ -59,7 +65,8 @@ const App = () => {
       <Route path="/admin/blogs" element={<AdminRoute><AdminBlogs /></AdminRoute>} />
       <Route path="/admin/blogs/add" element={<AdminRoute><AddBlog /></AdminRoute>} />
       <Route path="/admin/blogs/edit/:slug" element={<AdminRoute><AddBlog /></AdminRoute>} />
-         <Route
+      <Route path="/admin/sale" element={<AdminRoute><AdminSale /></AdminRoute>} />
+      <Route
         path="/admin/dashboard1"
         element={
           <AdminRoute>

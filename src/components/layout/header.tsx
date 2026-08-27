@@ -5,13 +5,14 @@ import products from "../../data/products.json";
 import logo from "../../assets/crescita-logo.png"
 
 // Maps nav label → query params for /products
-const NAV_ITEMS: { label: string; params: Record<string, string> }[] = [
+const NAV_ITEMS: { label: string; params: Record<string, string>; highlight?: boolean }[] = [
   { label: "New Arrivals", params: { sort: "newest" } },
   { label: "Women", params: { category: "Fashion", sub: "Women's Clothing" } },
   { label: "Men", params: { category: "Fashion", sub: "Men's Clothing" } },
   { label: "Kids", params: { category: "Fashion", sub: "Kids Clothing" } },
   { label: "Beauty", params: { category: "Beauty" } },
   { label: "Home & Living", params: { category: "Home & Living" } },
+  { label: "Sale", params: { sort: "discount" }, highlight: true },
 ];
 
 const Header = () => {
@@ -74,11 +75,15 @@ const Header = () => {
 
         {/* Nav links */}
         <ul className="hidden md:flex gap-0 list-none">
-          {NAV_ITEMS.map(({ label, params }) => (
+          {NAV_ITEMS.map(({ label, params, highlight }) => (
             <li key={label}>
               <button
                 onClick={() => handleNav(params)}
-                className="text-xs font-normal tracking-[0.03em] text-gray-700 px-2.5 lg:px-3.5 h-[52px] inline-flex items-center hover:text-black transition-colors"
+                className={`text-xs font-normal tracking-[0.03em] px-2.5 lg:px-3.5 h-[52px] inline-flex items-center transition-colors ${
+                  highlight
+                    ? "text-red-500 font-semibold hover:text-red-700"
+                    : "text-gray-700 hover:text-black"
+                }`}
               >
                 {label}
               </button>
