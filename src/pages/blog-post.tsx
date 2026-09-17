@@ -1,6 +1,72 @@
 import { useParams, useNavigate } from "react-router-dom";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import { loadPosts } from "../data/blog-store";
 import type { Section } from "../data/blog-data";
+
+/* ══════════════════════════════════════
+   Animated Text — ink-bleed from center
+   Replicates GSAP SplitText word animation
+══════════════════════════════════════ */
+const AnimatedText = ({
+  text,
+  className,
+}: {
+  text: string;
+  className?: string;
+}) => {
+  const containerRef = useRef<HTMLParagraphElement>(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const wordEls = container.querySelectorAll<HTMLSpanElement>(".anim-word");
+    if (!wordEls.length) return;
+
+    // Reset to initial state
+    gsap.set(wordEls, { opacity: 0, scale: 0, filter: "blur(4px)" });
+
+    // IntersectionObserver — animate only when paragraph enters viewport
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            gsap.to(wordEls, {
+              opacity: 1,
+              scale: 1,
+              filter: "blur(0px)",
+              stagger: { each: 0.03, from: "center" },
+              duration: 0.5,
+              ease: "power2.out",
+            });
+            observer.unobserve(container);
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    observer.observe(container);
+    return () => observer.disconnect();
+  }, [text]);
+
+  const words = text.split(" ");
+
+  return (
+    <p ref={containerRef} className={className}>
+      {words.map((word, i) => (
+        <span
+          key={i}
+          className="anim-word inline-block"
+          style={{ marginRight: "0.28em", transformOrigin: "center" }}
+        >
+          {word}
+        </span>
+      ))}
+    </p>
+  );
+};
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -227,9 +293,10 @@ const ContentBlock = ({ section }: { section: Section }) => {
 
     case "paragraph":
       return (
-        <p className="text-[16px] sm:text-[17px] text-gray-600 leading-[1.95] font-light mt-6 first:mt-0">
-          {section.text}
-        </p>
+        <AnimatedText
+          text={section.text}
+          className="text-[16px] sm:text-[17px] text-gray-600 leading-[1.95] font-light mt-6 first:mt-0"
+        />
       );
 
     case "heading":

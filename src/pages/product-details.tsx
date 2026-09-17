@@ -558,7 +558,7 @@ const ProductDetails = () => {
       {/* You May Also Like */}
       {alsoLike.length > 0 && (
         <section className="px-4 sm:px-6 lg:px-8 py-8 lg:py-10 border-t border-gray-100">
-          <p className="text-[11px] font-medium tracking-[0.12em] uppercase text-gray-400 mb-5">
+          <p className="text-[11px] font-medium tracking-[0.12em] uppercase  mb-5">
             You May Also Like
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 w-full">

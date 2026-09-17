@@ -6,7 +6,7 @@ const DEPARTMENTS = [
   {
     num: "01",
     name: "Fashion",
-    sub: "Clothing, footwear & accessories.",
+    sub: "Clothing, Footwear & Accessories.",
     params: "category=Fashion",
     image: "https://media.istockphoto.com/id/2157081744/photo/modern-built-in-wardrobe-closet-with-personal-accessories.webp?a=1&b=1&s=612x612&w=0&k=20&c=t-vdtlpGeYlI8T1rc9DXzjUUnOpEYdDAkVlsECXSnWs="
   },
